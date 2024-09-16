@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subpage 2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h3 {
+            color: #3498db;
+            margin-top: 20px;
+        }
+        .question-label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .option {
+            margin-bottom: 10px;
+        }
+        .option label {
+            display: inline;
+            margin-left: 5px;
+        }
+        input[type="submit"] {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+        input[type="submit"]:hover {
+            background-color: #2980b9;
+        }
+    </style>
+    <script>
+        async function submitForm(event) {
+            event.preventDefault();
+
+            const questions = document.querySelectorAll('.question');
+            for (const question of questions) {
+                const questionText = question.querySelector('.question-label').innerText;
+                const options = question.querySelectorAll('input[type="radio"], input[type="checkbox"]');
+                let selectedOptions = '';
+
+                options.forEach(option => {
+                    if (option.checked) {
+                        selectedOptions += option.value;
+                    }
+                });
+
+                const response = await fetch('/answer', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        question: questionText,
+                        selectedOptions: selectedOptions
+                    })
+                });
+
+                const result = await response.json();
+                console.log(`Recommended answer for "${questionText}": ${result.recommendedAnswer}`);
+            }
+        }
+    </script>
+</head>
+<body>
+    <h2>Subpage 2: Insurance Exam Questions</h2>
+
+    <form onsubmit="submitForm(event)">
+        <div class="question">
+            <h3>Single-option Question</h3>
+            <label class="question-label" for="q1">What is the primary purpose of life insurance?</label>
+            <div class="option">
+                <input type="radio" name="q1" id="q1a" value="A">
+                <label for="q1a">A. To provide financial protection for beneficiaries</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="q1" id="q1b" value="B">
+                <label for="q1b">B. To increase one's wealth</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="q1" id="q1c" value="C">
+                <label for="q1c">C. To avoid paying taxes</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <h3>Multi-option Question</h3>
+            <label class="question-label" for="q2">Which of the following are common types of life insurance policies? (Select all that apply)</label>
+            <div class="option">
+                <input type="checkbox" name="q2" id="q2a" value="A">
+                <label for="q2a">A. Term Life</label>
+            </div>
+            <div class="option">
+                <input type="checkbox" name="q2" id="q2b" value="B">
+                <label for="q2b">B. Whole Life</label>
+            </div>
+            <div class="option">
+                <input type="checkbox" name="q2" id="q2c" value="C">
+                <label for="q2c">C. Universal Life</label>
+            </div>
+            <div class="option">
+                <input type="checkbox" name="q2" id="q2d" value="D">
+                <label for="q2d">D. Variable Life</label>
+            </div>
+        </div>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

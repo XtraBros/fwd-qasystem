@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h3 {
+            color: #3498db;
+            margin-top: 20px;
+        }
+        .question-label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .option {
+            margin-bottom: 10px;
+        }
+        .option label {
+            display: inline;
+            margin-left: 5px;
+        }
+        input[type="submit"] {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+        input[type="submit"]:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <h2>Module 3: Insurance Exam Questions</h2>
+
+    <form id="quizForm">
+        <div id="questionsContainer"></div>
+        <button type="submit">提交</button>
+    </form>
+
+    <script>
+        const quizData = [
+            {
+                question: "Which of the following are types of insurance? (Select all that apply)",
+                options: ["A. Health", "B. Life", "C. Car", "D. Home"],
+                correctAnswer: "AB",
+                score: 5
+            },
+            {
+                question: "Which of the following is true about insurance?",
+                options: ["A. It is optional", "B. It provides financial protection", "C. It is free", "D. It is only for businesses"],
+                correctAnswer: "B",
+                score: 3
+            },
+            {
+                question: "Which of the following are benefits of insurance? (Select all that apply)",
+                options: ["A. Risk management", "B. Financial security", "C. Peace of mind", "D. Legal compliance"],
+                correctAnswer: "ABCD",
+                score: 4
+            },
+            {
+                question: "What is the primary purpose of insurance?",
+                options: ["A. To provide financial protection", "B. To make money", "C. To avoid taxes", "D. To comply with the law"],
+                correctAnswer: "A",
+                score: 2
+            },
+            {
+                question: "Which of the following are common types of life insurance policies? (Select all that apply)",
+                options: ["A. Term life", "B. Whole life", "C. Universal life", "D. Variable life"],
+                correctAnswer: "ABCD",
+                score: 6
+            }
+        ];
+
+        function generateQuiz() {
+            const container = document.getElementById('questionsContainer');
+            quizData.forEach((item, index) => {
+                const questionDiv = document.createElement('div');
+                questionDiv.classList.add('question');
+
+                const questionLabel = document.createElement('label');
+                questionLabel.classList.add('question-label');
+                questionLabel.innerText = item.question;
+                questionDiv.appendChild(questionLabel);
+
+                item.options.forEach((option, optionIndex) => {
+                    const optionLabel = document.createElement('label');
+                    const optionInput = document.createElement('input');
+                    optionInput.type = item.correctAnswer.length > 1 ? 'checkbox' : 'radio';
+                    optionInput.name = `question${index}`;
+                    optionInput.value = String.fromCharCode(65 + optionIndex); // A, B, C, D
+                    optionLabel.appendChild(optionInput);
+                    optionLabel.appendChild(document.createTextNode(option));
+                    questionDiv.appendChild(optionLabel);
+                    questionDiv.appendChild(document.createElement('br'));
+                });
+
+                container.appendChild(questionDiv);
+            });
+        }
+
+        async function submitForm(event) {
+            event.preventDefault();
+
+            const questions = document.querySelectorAll('.question');
+            let totalScore = 0;
+
+            for (let i = 0; i < questions.length; i++) {
+                const question = questions[i];
+                const questionText = quizData[i].question;
+                const options = question.querySelectorAll('input[type="radio"], input[type="checkbox"]');
+                let selectedOptions = '';
+
+                options.forEach(option => {
+                    if (option.checked) {
+                        selectedOptions += option.value;
+                    }
+                });
+
+                // Simulate the thinking process using setTimeout
+                await new Promise(resolve => setTimeout(resolve, i * 500));
+
+                const response = await fetch('/answer', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        question: questionText,
+                        selectedOptions: selectedOptions
+                    })
+                });
+
+                const result = await response.json();
+                console.log(`Recommended answer for "${questionText}": ${result.recommendedAnswer}`);
+
+                // Select the recommended answer based on the returned answer
+                const recommendedAnswer = result.recommendedAnswer;
+                options.forEach(option => {
+                    if (recommendedAnswer.includes(option.value)) {
+                        option.checked = true;
+                    } else {
+                        option.checked = false;
+                    }
+                });
+
+                // Compare the recommended answer and the correct answer
+                const correctAnswer = quizData[i].correctAnswer;
+                const resultText = recommendedAnswer === correctAnswer ? 
+                    'AI answer: correct' : 
+                    `AI answer: wrong. Correct answer is: ${correctAnswer}`;
+
+                // Output the result at the end of the question
+                const lastOption = options[options.length - 1].parentElement;
+                const resultElement = document.createElement('div');
+                resultElement.style.marginTop = '10px';
+                resultElement.style.color = recommendedAnswer === correctAnswer ? 'green' : 'red';
+                resultElement.innerText = resultText;
+                lastOption.appendChild(resultElement);
+
+                // Calculate the total score
+                if (recommendedAnswer === correctAnswer) {
+                    totalScore += quizData[i].score;
+                }
+            }
+
+            // Output the total score
+            const totalScoreElement = document.createElement('div');
+            totalScoreElement.style.marginTop = '20px';
+            totalScoreElement.style.fontWeight = 'bold';
+            totalScoreElement.innerText = `总得分：${totalScore}分`;
+            document.body.appendChild(totalScoreElement);
+        }
+
+        document.getElementById('quizForm').addEventListener('submit', submitForm);
+        window.onload = generateQuiz;
+    </script>
+</body>
+</html>
