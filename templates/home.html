@@ -24,7 +24,12 @@
         }
         .button-container {
             display: flex;
-            gap: 20px;
+            justify-content: center; /* Center the columns */
+            gap: 50px; /* Space between columns */
+        }
+        .module-group {
+            width: 300px; /* Set a uniform width for each column */
+            text-align: left;
         }
         button {
             padding: 15px 30px;
@@ -35,6 +40,7 @@
             border: none;
             border-radius: 5px;
             transition: all 0.3s ease;
+            margin-top: 10px; /* Added margin for better spacing */
         }
         button:hover {
             background-color: #2980b9;
@@ -45,9 +51,22 @@
 <body>
     <h1>Insurance Qualification Exam</h1>
     <div class="button-container">
-        <button onclick="window.location.href='/module_1'">Go to Module 1</button>
-        <button onclick="window.location.href='/module_2'">Go to Module 2</button>
-        <button onclick="window.location.href='/module_3'">Go to Module 3</button>
+        <div class="module-group">
+            <h2>Singapore Modules</h2>
+            <div style="display: flex; flex-direction: column; gap: 15px;">  
+                <button onclick="window.location.href='/module_1'">Module 5 (SG)</button>
+                <button onclick="window.location.href='/module_2'">Module 8+8A (SG)</button>
+                <button onclick="window.location.href='/module_3'">Module 9+9A (SG)</button>
+            </div>  
+        </div>
+        <div class="module-group">
+            <h2>Hong Kong Modules</h2>
+            <div style="display: flex; flex-direction: column; gap: 15px;">  
+                <button onclick="window.location.href='/hk_module_1'">Principles and practice (HK)</button>  
+                <button onclick="window.location.href='/hk_module_2'">General insrance (HK)</button>
+                <button onclick="window.location.href='/hk_module_3'">Long-term insurance (HK)</button>
+            </div>  
+        </div>
     </div>
 </body>
 </html>

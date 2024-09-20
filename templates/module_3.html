@@ -24,6 +24,7 @@
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-top: 20px;
         }
         h3 {
             color: #3498db;
@@ -35,24 +36,54 @@
             font-weight: bold;
         }
         .option {
-            margin-bottom: 10px;
+            margin-bottom: 5px;
         }
         .option label {
             display: inline;
             margin-left: 5px;
         }
-        input[type="submit"] {
+        .model-select-container {
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+        }
+        .model-select-container label {
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        .model-select-container select {
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            margin-right: 10px;
+        }
+        .submit-button {
+            display: block;
+            width: 100%;
             background-color: #3498db;
             color: white;
-            padding: 10px 20px;
+            padding: 15px 20px;
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            font-size: 16px;
+            font-size: 18px;
             margin-top: 20px;
         }
-        input[type="submit"]:hover {
+        .submit-button:hover {
             background-color: #2980b9;
+        }
+
+        .option {
+            margin-bottom: 10px;
+        }
+
+        input[type="radio"],
+        input[type="checkbox"] {
+            margin-right: 10px;
+        }
+
+        .question {
+            margin-bottom: 20px;
         }
     </style>
 </head>
@@ -61,7 +92,15 @@
 
     <form id="quizForm">
         <div id="questionsContainer"></div>
-        <button type="submit">提交</button>
+        <div class="model-select-container">
+            <label for="modelSelect">Choose a method:</label>
+            <select id="modelSelect">
+                <option value="model1">GPT</option>
+                <option value="model2">GPT + RAG</option>
+                <option value="model3">Ours (InsurBooster)</option>
+            </select>
+        </div>
+        <button type="submit" class="submit-button">Start Quiz</button>
     </form>
 
     <script>
@@ -128,6 +167,10 @@
         async function submitForm(event) {
             event.preventDefault();
 
+            // Clear previous results
+            clearPreviousResults();
+
+            const model = document.getElementById('modelSelect').value;
             const questions = document.querySelectorAll('.question');
             let totalScore = 0;
 
@@ -136,6 +179,9 @@
                 const questionText = quizData[i].question;
                 const options = question.querySelectorAll('input[type="radio"], input[type="checkbox"]');
                 let selectedOptions = '';
+
+                // Simulate the thinking process using setTimeout
+                await new Promise(resolve => setTimeout(resolve, i * 500));
 
                 options.forEach(option => {
                     if (option.checked) {
@@ -153,7 +199,8 @@
                     },
                     body: JSON.stringify({
                         question: questionText,
-                        selectedOptions: selectedOptions
+                        selectedOptions: selectedOptions,
+                        model: model // Add model to the request body
                     })
                 });
 
@@ -182,6 +229,7 @@
                 resultElement.style.marginTop = '10px';
                 resultElement.style.color = recommendedAnswer === correctAnswer ? 'green' : 'red';
                 resultElement.innerText = resultText;
+                resultElement.classList.add('result-text');
                 lastOption.appendChild(resultElement);
 
                 // Calculate the total score
@@ -194,8 +242,29 @@
             const totalScoreElement = document.createElement('div');
             totalScoreElement.style.marginTop = '20px';
             totalScoreElement.style.fontWeight = 'bold';
-            totalScoreElement.innerText = `总得分：${totalScore}分`;
+            totalScoreElement.innerText = `Total score: ${totalScore} out of 10`;
+            totalScoreElement.id = 'totalScore';
             document.body.appendChild(totalScoreElement);
+        }
+
+        function clearPreviousResults() {
+            // Clear all selected options
+            const options = document.querySelectorAll('input[type="radio"], input[type="checkbox"]');
+            options.forEach(option => {
+                option.checked = false;
+            });
+
+            // Clear previous comparison results
+            const resultElements = document.querySelectorAll('.result-text');
+            resultElements.forEach(element => {
+                element.remove();
+            });
+
+            // Clear total score
+            const totalScoreElement = document.getElementById('totalScore');
+            if (totalScoreElement) {
+                totalScoreElement.remove();
+            }
         }
 
         document.getElementById('quizForm').addEventListener('submit', submitForm);

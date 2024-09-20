@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request, jsonify
+import random
 
 app = Flask(__name__)
 
@@ -12,7 +13,7 @@ def answer():
     question = data.get('question')
     selected_options = data.get('selectedOptions')
     
-    recommended_answer = "A"
+    recommended_answer = random.choice(["A", "B", "C", "D"])
     
     return jsonify({
         'question': question,
