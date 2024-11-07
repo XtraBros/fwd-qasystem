@@ -1,0 +1,13 @@
+<!-- single_choice.html -->
+<div class="question">
+    <label class="question-label" for="{{ question_id }}">{{ question_text }}</label>
+    {% for index, option in options %}
+    <div class="option">
+        <input type="{{ 'checkbox' if is_multiple_choice else 'radio' }}" 
+               name="{{ question_id }}" 
+               id="{{ question_id }}{{ index }}" 
+               value="{{ option['value'] }}">
+        <label for="{{ question_id }}{{ index }}">{{ option['label'] }}</label>
+    </div>
+    {% endfor %}
+</div>
