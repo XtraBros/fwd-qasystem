@@ -9,17 +9,17 @@
 </head>
 <body>
     <h2>Subpage 1: Insurance Exam Questions</h2>
-    <div class="model-select-container">
-        <label for="modelSelect">Choose a method:</label>
-        <select id="modelSelect">
-            <option value="model1">GPT</option>
-            <option value="model2">GPT + RAG</option>
-            <option value="model3">Ours (InsurBooster)</option>
-        </select>
-    </div>
     <form onsubmit="submitForm(event)">
         <!-- Questions will be dynamically injected here by JavaScript -->
         <div id="questions-container"></div>
+        <div class="model-select-container">
+            <label for="modelSelect">Choose a method:</label>
+            <select id="modelSelect">
+                <option value="model1">GPT</option>
+                <option value="model2">GPT + RAG</option>
+                <option value="model3">Ours (InsurBooster)</option>
+            </select>
+        </div>
         <input type="submit" value="Submit">
     </form>
     <script src="{{ url_for('static', filename='data/m1_questions.js')}}"></script> <!-- Load questions data -->
