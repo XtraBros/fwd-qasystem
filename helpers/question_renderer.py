@@ -1,4 +1,18 @@
 # render_question.py
+'''
+Creates HTML from question data. Example data:
+multiple_choice_data = {
+    "question_text": "Which of the following are common types of life insurance policies? (Select all that apply)",
+    "options": [
+        {"label": "A. Term Life", "value": "A"},
+        {"label": "B. Whole Life", "value": "B"},
+        {"label": "C. Universal Life", "value": "C"},
+        {"label": "D. Variable Life", "value": "D"}
+    ],
+    "question_id": "q5",
+    "is_multiple_choice": True
+}
+'''
 from jinja2 import Environment, FileSystemLoader
 import os
 
