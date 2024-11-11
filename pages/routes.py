@@ -1,6 +1,6 @@
 from flask import Blueprint, render_template, request, jsonify
 
-pages = Blueprint('main', __name__)
+pages = Blueprint('pages', __name__)
 
 # Homepage
 @pages.route('/')
