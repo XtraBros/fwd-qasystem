@@ -55,7 +55,7 @@ async function submitForm(event) {
 
     const questions = document.querySelectorAll('.question');
     let totalScore = 0;
-
+    let maxScore = 0;
     for (let i = 0; i < questions.length; i++) {
         const question = questions[i];
         const questionId = question.getAttribute("data-question-id"); // Get question_id from attribute
@@ -116,6 +116,7 @@ async function submitForm(event) {
         if (recommendedAnswer === correctAnswer) {
             totalScore += questionScore;
         }
+        maxScore += questionScore;
     }
 
     // Output the total score, replacing any previous score display
@@ -127,7 +128,7 @@ async function submitForm(event) {
         totalScoreElement.style.fontWeight = 'bold';
         document.body.appendChild(totalScoreElement);
     }
-    totalScoreElement.innerText = `Total score: ${totalScore} out of 100`;
+    totalScoreElement.innerText = `Total score: ${totalScore} out of ${maxScore}`;
 }
 
 document.addEventListener("DOMContentLoaded", renderQuestions);
