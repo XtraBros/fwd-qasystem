@@ -1,4 +1,4 @@
-const questionsData = [
+[
     {
         "question_id": 1,
         "question": "Consider a scenario where an investor is concerned about the impact of interest rate fluctuations on their fixed-income investments. Which feature of a Portfolio of Investments with an Insurance Element could address this concern?",

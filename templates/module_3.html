@@ -10,8 +10,8 @@
 <body>
     <h2>Module 3: Insurance Exam Questions</h2>
 
-    <form id="quizForm">
-        <div id="questionsContainer"></div>
+    <form onsubmit="submitForm(event)">
+        <div id="questions-container"></div>
         <div class="model-select-container">
             <label for="modelSelect">Choose a method:</label>
             <select id="modelSelect">
@@ -23,6 +23,6 @@
         <button type="submit" class="submit-button">Start Quiz</button>
     </form>
     <script src="{{ url_for('static', filename='data/m3_questions.js')}}"></script> <!-- Load questions data -->
-    <script src="{{ url_for('static', filename='js/module_3.js')}}"></script> <!-- Load fucntions -->
+    <script src="{{ url_for('static', filename='js/scripts.js')}}"></script> <!-- Load fucntions -->
 </body>
 </html>

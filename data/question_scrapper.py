@@ -4,7 +4,7 @@ import json
 import re
 
 # URL of the page with quiz questions
-url = "https://cmfasexam.com/res-5-free-practice-test/"
+url = "https://cmfasexam.com/cm-lip-free-practice-test/"
 
 # Send a request to the URL
 response = requests.get(url)
