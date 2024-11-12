@@ -6,9 +6,12 @@ function renderQuestions() {
     questionsData.forEach((q, index) => {
         const questionDiv = document.createElement("div");
         questionDiv.classList.add("question");
+        
+        // Set the question_id attribute
+        questionDiv.setAttribute("data-question-id", q.question_id);
 
-        // Format the question text
-        const formattedQuestionText = formatQuestionText(q.question);
+        // Format and number the question text
+        const formattedQuestionText = `${index + 1}. ${formatQuestionText(q.question)}`;
         
         const label = document.createElement("label");
         label.classList.add("question-label");
@@ -55,7 +58,7 @@ async function submitForm(event) {
 
     for (let i = 0; i < questions.length; i++) {
         const question = questions[i];
-        const questionText = question.querySelector('.question-label').innerText;
+        const questionId = question.getAttribute("data-question-id"); // Get question_id from attribute
         const options = question.querySelectorAll('input[type="radio"], input[type="checkbox"]');
         let selectedOptions = '';
 
@@ -65,8 +68,8 @@ async function submitForm(event) {
             }
         });
 
-        // Simulate a delay for processing each question
-        await new Promise(resolve => setTimeout(resolve, i * 500));
+        // Simulate a delay for processing each question to appear sequential
+        await new Promise(resolve => setTimeout(resolve, i * 100));
 
         const response = await fetch('/answer', {
             method: 'POST',
@@ -74,13 +77,13 @@ async function submitForm(event) {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
-                question: questionText,
+                question_id: questionId,
                 selectedOptions: selectedOptions
             })
         });
 
         const result = await response.json();
-        console.log(`Recommended answer for "${questionText}": ${result.recommendedAnswer}`);
+        console.log(`Recommended answer for question ID "${questionId}": ${result.recommendedAnswer}`);
 
         // Check the radio or checkbox based on the returned answer
         const recommendedAnswer = result.recommendedAnswer;
@@ -88,8 +91,8 @@ async function submitForm(event) {
             option.checked = recommendedAnswer.includes(option.value);
         });
 
-        // Retrieve the correct answer and score from questionsData
-        const questionData = questionsData.find(q => q.question === questionText);
+        // Retrieve the correct answer and score using question_id
+        const questionData = questionsData.find(q => q.question_id == questionId);
         const correctAnswer = questionData ? questionData.correctAnswer : '';
         const questionScore = questionData ? questionData.score : 0;
 
@@ -98,12 +101,16 @@ async function submitForm(event) {
             'AI answer: correct' : 
             `AI answer: wrong. Correct answer is: ${correctAnswer}`;
 
-        const lastOption = options[options.length - 1].parentElement;
-        const resultElement = document.createElement('div');
-        resultElement.style.marginTop = '10px';
+        // Remove any existing result message before adding the new one
+        let resultElement = question.querySelector('.result-message');
+        if (!resultElement) {
+            resultElement = document.createElement('div');
+            resultElement.classList.add('result-message');
+            resultElement.style.marginTop = '10px';
+            question.appendChild(resultElement);
+        }
         resultElement.style.color = recommendedAnswer === correctAnswer ? 'green' : 'red';
         resultElement.innerText = resultText;
-        lastOption.appendChild(resultElement);
 
         // Add to the total score if the AI answer is correct
         if (recommendedAnswer === correctAnswer) {
@@ -111,12 +118,16 @@ async function submitForm(event) {
         }
     }
 
-    // Output the total score
-    const totalScoreElement = document.createElement('div');
-    totalScoreElement.style.marginTop = '20px';
-    totalScoreElement.style.fontWeight = 'bold';
+    // Output the total score, replacing any previous score display
+    let totalScoreElement = document.getElementById('total-score');
+    if (!totalScoreElement) {
+        totalScoreElement = document.createElement('div');
+        totalScoreElement.id = 'total-score';
+        totalScoreElement.style.marginTop = '20px';
+        totalScoreElement.style.fontWeight = 'bold';
+        document.body.appendChild(totalScoreElement);
+    }
     totalScoreElement.innerText = `Total score: ${totalScore} out of 100`;
-    document.body.appendChild(totalScoreElement);
 }
 
 document.addEventListener("DOMContentLoaded", renderQuestions);
