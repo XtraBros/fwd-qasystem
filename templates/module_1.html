@@ -10,8 +10,6 @@
 <body>
     <h2>Subpage 1: Insurance Exam Questions</h2>
     <form onsubmit="submitForm(event)">
-        <!-- Questions will be dynamically injected here by JavaScript -->
-        <div id="questions-container"></div>
         <div class="model-select-container">
             <label for="modelSelect">Choose a method:</label>
             <select id="modelSelect">
@@ -20,7 +18,8 @@
                 <option value="model3">Ours (InsurBooster)</option>
             </select>
         </div>
-        <input type="submit" value="Submit">
+        <button type="submit" class="submit-button">Start Quiz</button>
+        <div id="questions-container"></div>
     </form>
     <script src="{{ url_for('static', filename='data/m1_questions.js')}}"></script> <!-- Load questions data -->
     <script src="{{ url_for('static', filename='js/scripts.js')}}"></script> <!-- Load fucntions -->
