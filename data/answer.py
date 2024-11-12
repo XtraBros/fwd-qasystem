@@ -41,5 +41,5 @@ def update_correct_answers(correct_answers):
 
 # Example usage: Provide a list of correct answer indices (integers)
 # Replace this list with the actual correct answers for each question
-correct_answers_list = [2,3,4,3,3,2,1,3,4,3,4,1,2,2,3,4,2,2,3,3,3,2,2,3,4,2,2,2,2,2] # update based on questions.
+correct_answers_list = [2,1,3,2,4,3,4,2,3,1,3,2,3,3,4,1,2,3,1,2,3,2,3,4,3,2,3,4,3,4] # update based on questions.
 update_correct_answers(correct_answers_list)
