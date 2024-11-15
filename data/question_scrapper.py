@@ -3,8 +3,9 @@ from bs4 import BeautifulSoup
 import json
 import re
 
+# Working scrapper for CMFAS exam website and IIQE database website. Only correct answers cannot be fetched.
 # URL of the page with quiz questions
-url = "https://cmfasexam.com/cmfas-hi-mock-paper-exam-past-paper-format-questions-bank-health-insurance-cmfasexam/"
+url = "https://iiqedatabase.com/iiqe-paper-6-english-preview/"
 
 # Send a request to the URL
 response = requests.get(url)

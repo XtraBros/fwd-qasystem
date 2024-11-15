@@ -1,62 +1,80 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.container {
-    background-color: #fff;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 500px;
+    background-color: #f4f4f4;
 }
-
-h1, h2 {
-    text-align: center;
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
 }
-
 form {
-    display: flex;
-    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 20px;
 }
-
-textarea {
-    resize: none;
-    padding: 10px;
-    font-size: 16px;
+h3 {
+    color: #3498db;
+    margin-top: 20px;
+}
+.question-label {
+    display: block;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    font-weight: bold;
 }
-
-button {
-    padding: 10px;
-    font-size: 16px;
-    background-color: #007BFF;
-    color: #fff;
+.option {
+    margin-bottom: 5px;
+}
+.option label {
+    display: inline;
+    margin-left: 5px;
+}
+.model-select-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.model-select-container label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+.model-select-container select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+.submit-button {
+    display: block;
+    width: 100%;
+    background-color: #3498db;
+    color: white;
+    padding: 15px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-
-#response-container {
+    font-size: 18px;
     margin-top: 20px;
 }
+.submit-button:hover {
+    background-color: #2980b9;
+}
 
-#response {
-    font-size: 16px;
-    background-color: #e9ecef;
-    padding: 10px;
-    border-radius: 5px;
+.option {
+    margin-bottom: 10px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.question {
+    margin-bottom: 20px;
 }
