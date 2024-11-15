@@ -163,6 +163,7 @@ cython_debug/
 
 # misc files
 notes.md
+config.json
 
 # IDE & System
 .idea/
