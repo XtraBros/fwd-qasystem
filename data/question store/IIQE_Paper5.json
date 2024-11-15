@@ -1,0 +1,392 @@
+[
+    {
+        "question_id": 1,
+        "question": "Mr. Wong, a licensed insurance agent, wants to utilize social media platforms for promoting investment-linked insurance products. Which of the following actions is in compliance with the Guideline on the Use of Internet for Insurance Activities (GL8)?",
+        "options": [
+            "A. Sharing detailed investment advice on his personal blog.",
+            "B. Sending unsolicited messages to potential clients via social media.",
+            "C. Posting generic information about the benefits of investment-linked insurance on his agency's official Facebook page.",
+            "D. Offering personalized insurance quotes through direct messages on Twitter."
+        ],
+        "correctAnswer": "C",
+        "explanation": "According to GL8 of the IIQE exam guidelines, insurance agents are allowed to use the internet for promoting insurance products, but they must ensure that the information shared is fair, clear, and not misleading. Posting generic information about the benefits of investment-linked insurance on an official social media page aligns with these guidelines as it provides general information without offering personalized advice or soliciting business directly. This action helps maintain transparency and integrity in online communications, which is crucial for compliance with GL8.",
+        "score": 1
+    },
+    {
+        "question_id": 2,
+        "question": "Ms. Chan is an underwriter processing applications for Class C insurance policies. Which of the following practices adheres to the Guideline on Underwriting Class C Business (GL15)?",
+        "options": [
+            "A. Approving an application without verifying the applicant's medical history.",
+            "B. Requesting additional documentation to assess the applicant's financial status.",
+            "C. Rejecting an application solely based on the applicant's age.",
+            "D. Offering discounted premiums to applicants with pre-existing medical conditions."
+        ],
+        "correctAnswer": "B",
+        "explanation": "GL15 of the IIQE exam guidelines outlines the principles for underwriting Class C business, which typically involves higher risk insurance. According to GL15, underwriters should conduct thorough assessments of applicants\u2019 risks, including their financial status, to ensure fair and appropriate pricing of insurance policies. Requesting additional documentation to assess the applicant\u2019s financial status demonstrates adherence to GL15 by ensuring proper risk evaluation and pricing strategies are applied.",
+        "score": 1
+    },
+    {
+        "question_id": 3,
+        "question": "Mr. Johnson, a licensed insurance agent, is approached by a client interested in purchasing an investment-linked insurance policy. During their discussion, the client expresses concerns about market volatility and potential losses. Which of the following statements by Mr. Johnson demonstrates compliance with the IIQE guidelines on investment-linked insurance?",
+        "options": [
+            "A. \"This investment-linked policy guarantees high returns regardless of market fluctuations.\"",
+            "B. \"Investment-linked insurance offers protection against all market risks, so your investment is completely secure.\"",
+            "C. \"While investment-linked insurance provides opportunities for growth, it's important to understand that your investment may be subject to market risks.\"",
+            "D. \"Don't worry about market volatility; I can adjust your policy to ensure maximum returns at all times.\""
+        ],
+        "correctAnswer": "C",
+        "explanation": "According to the IIQE guidelines for investment-linked insurance, agents must provide accurate and clear information to clients, including disclosing the risks associated with market fluctuations. Option (c) aligns with this requirement by acknowledging the existence of market risks associated with investment-linked insurance while still highlighting its potential for growth. Providing such balanced information helps clients make informed decisions and ensures compliance with regulatory guidelines.",
+        "score": 1
+    },
+    {
+        "question_id": 4,
+        "question": "Ms. Lee, an insurance agent, wants to organize a webinar to educate potential clients about investment-linked insurance products. Which of the following actions would comply with the Guideline on the Use of Internet for Insurance Activities (GL8)?",
+        "options": [
+            "A. Offering personalized investment advice to attendees based on their financial profiles.",
+            "B. Promising guaranteed returns on investment-linked policies during the webinar.",
+            "C. Inviting guest speakers who are not licensed insurance professionals to share investment insights.",
+            "D. Providing a disclaimer stating that the webinar is for educational purposes only and not intended as personalized financial advice."
+        ],
+        "correctAnswer": "D",
+        "explanation": "GL8 of the IIQE guidelines requires insurance agents to ensure that information shared online is fair, clear, and not misleading. Option (d) aligns with this requirement by providing a disclaimer that clarifies the purpose of the webinar and sets appropriate expectations for attendees. By explicitly stating that the webinar is for educational purposes and not personalized financial advice, Ms. Lee adheres to GL8 and avoids potential misunderstandings or misinterpretations of the information presented.",
+        "score": 1
+    },
+    {
+        "question_id": 5,
+        "question": "Mr. Yip, an underwriter, is reviewing an application for a Class C insurance policy. The applicant has a pre-existing medical condition that may affect their insurability. According to the Guideline on Underwriting Class C Business (GL15), which of the following actions should Mr. Yip take?",
+        "options": [
+            "A. Automatically rejecting the application due to the pre-existing medical condition.",
+            "B. Requesting additional medical assessments to evaluate the impact of the pre-existing condition on insurability.",
+            "C. Offering the applicant a policy with higher premiums without further assessment.",
+            "D. Approving the application without considering the pre-existing medical condition."
+        ],
+        "correctAnswer": "B",
+        "explanation": "GL15 of the IIQE guidelines emphasizes the importance of conducting thorough assessments for Class C business, especially when applicants have pre-existing medical conditions. Option (b) aligns with this requirement by recommending that Mr. Yip request additional medical assessments to evaluate the impact of the pre-existing condition on the applicant\u2019s insurability. This proactive approach ensures fair evaluation and appropriate risk pricing, in compliance with GL15.",
+        "score": 1
+    },
+    {
+        "question_id": 6,
+        "question": "Ms. Lam, an insurance agent, is conducting a seminar to promote investment-linked insurance products. Which of the following statements made by Ms. Lam would be consistent with the Guideline on the Use of Internet for Insurance Activities (GL8)?",
+        "options": [
+            "A. \"Investment-linked insurance guarantees fixed returns, regardless of market conditions.\"",
+            "B. \"This investment-linked insurance policy has consistently outperformed the market, ensuring high profits for all policyholders.\"",
+            "C. \"Past performance is not indicative of future results; therefore, it's important to carefully consider the risks associated with investment-linked insurance.\"",
+            "D. \"You can trust me to handle all your investments; I have insider knowledge that ensures maximum returns.\""
+        ],
+        "correctAnswer": "C",
+        "explanation": "GL8 mandates that information provided by insurance agents regarding investment-linked insurance must be fair, clear, and not misleading. Option (c) aligns with this guideline by cautioning potential clients about the limitations of past performance as an indicator of future returns. By emphasizing the importance of considering risks associated with investment-linked insurance, Ms. Lam ensures compliance with GL8 and promotes informed decision-making among clients.",
+        "score": 1
+    },
+    {
+        "question_id": 7,
+        "question": "Mr. Ho, an insurance agent, receives an inquiry from a potential client regarding investment-linked insurance policies. The client expresses interest in policies with guaranteed returns. Which of the following responses by Mr. Ho would be most appropriate based on IIQE guidelines?",
+        "options": [
+            "A. \"Investment-linked insurance policies offer guaranteed returns, so you can expect a fixed profit regardless of market fluctuations.\"",
+            "B. \"While investment-linked insurance policies do not guarantee returns, they provide opportunities for growth that may lead to higher profits over time.\"",
+            "C. \"I can assure you that your investment will be protected from all market risks with our investment-linked insurance products.\"",
+            "D. \"Guaranteed returns are not a feature of investment-linked insurance policies; however, they offer flexibility and potential for higher returns based on market performance.\""
+        ],
+        "correctAnswer": "D",
+        "explanation": "IIQE guidelines emphasize the importance of providing accurate and transparent information to clients regarding investment-linked insurance products. Option (d) aligns with this principle by clearly stating that guaranteed returns are not a feature of investment-linked insurance policies. Instead, it highlights the benefits of flexibility and potential for higher returns based on market performance, thereby providing the client with a realistic expectation of the product\u2019s features and benefits.",
+        "score": 1
+    },
+    {
+        "question_id": 8,
+        "question": "Ms. Ng, an underwriter, is reviewing an application for a Class C insurance policy. The applicant has disclosed a history of smoking-related health issues. According to the Guideline on Underwriting Class C Business (GL15), what should Ms. Ng consider when assessing the applicant\u2019s insurability?",
+        "options": [
+            "A. Disregarding the applicant's smoking history as it is not directly related to the Class C insurance policy.",
+            "B. Automatically approving the application with standard premium rates despite the smoking-related health issues.",
+            "C. Requesting additional medical assessments to evaluate the impact of the smoking-related health issues on the applicant's insurability.",
+            "D. Rejecting the application solely based on the applicant's smoking history."
+        ],
+        "correctAnswer": "C",
+        "explanation": "GL15 requires underwriters to conduct thorough assessments for Class C business, especially when applicants have disclosed significant health risks such as smoking-related issues. Option (c) aligns with this requirement by recommending that Ms. Ng request additional medical assessments to evaluate the impact of the smoking-related health issues on the applicant\u2019s insurability. This approach ensures fair evaluation and appropriate risk pricing, consistent with GL15.",
+        "score": 1
+    },
+    {
+        "question_id": 9,
+        "question": "Mr. Cheung, an insurance agent, is discussing investment-linked insurance options with a client who is nearing retirement. The client expresses concern about market volatility and the impact on their retirement savings. Which of the following statements by Mr. Cheung demonstrates compliance with IIQE guidelines?",
+        "options": [
+            "A. \"Investment-linked insurance guarantees a steady income stream during retirement, regardless of market fluctuations.\"",
+            "B. \"Market volatility can pose risks to your investment, but investment-linked insurance policies offer a range of options to mitigate these risks.\"",
+            "C. \"You should avoid investment-linked insurance altogether and opt for traditional savings accounts for your retirement.\"",
+            "D. \"Don't worry about market fluctuations; I can guarantee high returns on your investment-linked insurance policy.\""
+        ],
+        "correctAnswer": "B",
+        "explanation": "IIQE guidelines emphasize the importance of providing accurate and balanced information to clients regarding investment-linked insurance products. Option (b) aligns with this principle by acknowledging the risks of market volatility while also highlighting the availability of options within investment-linked insurance policies to mitigate these risks. By providing such balanced information, Mr. Cheung ensures compliance with IIQE guidelines and promotes informed decision-making among clients.",
+        "score": 1
+    },
+    {
+        "question_id": 10,
+        "question": "Ms. Wong, an insurance agent, is preparing promotional materials for investment-linked insurance products to be distributed online. Which of the following statements would comply with the Guideline on the Use of Internet for Insurance Activities (GL8)?",
+        "options": [
+            "A. \"It's important to understand the risks associated with investment-linked insurance, including the potential for loss of investment.\"",
+            "B. \"With investment-linked insurance, you can expect double-digit annual returns on your investment.\"",
+            "C. \"Investment-linked insurance policies guarantee minimum returns regardless of market conditions.\"",
+            "D. \"Investment-linked insurance offers risk-free investment options, ensuring financial security for policyholders.\""
+        ],
+        "correctAnswer": "A",
+        "explanation": "GL8 mandates that information shared online regarding investment-linked insurance must be fair, clear, and not misleading. Option (a) aligns with this guideline by highlighting the importance of understanding the risks associated with investment-linked insurance, including the potential for loss of investment. By providing such balanced information, Ms. Wong ensures compliance with GL8 and promotes informed decision-making among potential clients.",
+        "score": 1
+    },
+    {
+        "question_id": 11,
+        "question": "Mr. Chan, an insurance agent, receives a request from a client to provide investment advice tailored to their specific financial situation. According to the IIQE guidelines, how should Mr. Chan respond to this request?",
+        "options": [
+            "A. Provide personalized investment advice based on the client's financial profile and risk tolerance.",
+            "B. Decline the request as insurance agents are not authorized to provide investment advice.",
+            "C. Offer general information about investment-linked insurance products without providing personalized advice.",
+            "D. Direct the client to seek advice from a licensed financial advisor or investment consultant."
+        ],
+        "correctAnswer": "D",
+        "explanation": "IIQE guidelines restrict insurance agents from providing personalized investment advice to clients. Option (d) aligns with this restriction by directing the client to seek advice from a licensed financial advisor or investment consultant who is qualified to provide personalized investment recommendations. By adhering to this guideline, Mr. Chan ensures compliance with regulatory requirements and avoids potential conflicts of interest.",
+        "score": 1
+    },
+    {
+        "question_id": 12,
+        "question": "Ms. Yau, an underwriter, is assessing an application for a Class C insurance policy. The applicant has disclosed a history of high-risk hobbies such as skydiving and rock climbing. According to the Guideline on Underwriting Class C Business (GL15), what action should Ms. Yau take regarding the applicant\u2019s hobbies?",
+        "options": [
+            "A. Disregard the applicant's high-risk hobbies as they do not impact the insurability of the Class C insurance policy.",
+            "B. Increase the premium rates for the policy to account for the applicant's high-risk hobbies.",
+            "C. Automatically reject the application due to the applicant's participation in high-risk hobbies.",
+            "D. Request additional information or assessments to evaluate the impact of the applicant's high-risk hobbies on insurability."
+        ],
+        "correctAnswer": "D",
+        "explanation": "GL15 requires underwriters to conduct thorough assessments for Class C business, including evaluating factors such as the applicant\u2019s participation in high-risk hobbies. Option (d) aligns with this requirement by recommending that Ms. Yau request additional information or assessments to evaluate the impact of the applicant\u2019s high-risk hobbies on insurability. This approach ensures fair evaluation and appropriate risk pricing, consistent with GL15.",
+        "score": 1
+    },
+    {
+        "question_id": 13,
+        "question": "Mr. Lau, an insurance agent, is conducting a seminar on retirement planning, including the role of investment-linked insurance. Which of the following statements by Mr. Lau would comply with IIQE guidelines?",
+        "options": [
+            "A. \"Investment-linked insurance guarantees a fixed income stream during retirement, regardless of market fluctuations.\"",
+            "B. \"Market volatility can affect investment-linked insurance policies, but they offer guaranteed returns to protect your retirement savings.\"",
+            "C. \"It's important to understand that investment-linked insurance policies carry investment risks, and returns are subject to market performance.\"",
+            "D. \"Investment-linked insurance policies offer risk-free investment options, ensuring financial security for retirees.\""
+        ],
+        "correctAnswer": "C",
+        "explanation": "IIQE guidelines emphasize the importance of providing accurate and balanced information to clients regarding investment-linked insurance products, particularly in the context of retirement planning. Option (c) aligns with this principle by highlighting the investment risks associated with investment-linked insurance policies and emphasizing the influence of market performance on returns. By providing such balanced information, Mr. Lau ensures compliance with IIQE guidelines and promotes informed decision-making among seminar attendees.",
+        "score": 1
+    },
+    {
+        "question_id": 14,
+        "question": "Ms. Ng, an insurance agent, is promoting investment-linked insurance products through email marketing campaigns. Which of the following statements made by Ms. Ng would be consistent with the Guideline on the Use of Internet for Insurance Activities (GL8)?",
+        "options": [
+            "A. \"Investment-linked insurance guarantees substantial returns with minimal risk, making it the perfect choice for conservative investors.\"",
+            "B. \"This investment-linked insurance policy has consistently beaten the market, ensuring maximum profits for our clients.\"",
+            "C. \"It's important to consider the potential risks associated with investment-linked insurance, including market volatility and the possibility of loss.\"",
+            "D. \"Investment-linked insurance policies offer guaranteed returns, providing a secure investment option for all clients.\""
+        ],
+        "correctAnswer": "C",
+        "explanation": "GL8 mandates that information provided online about investment-linked insurance must be fair, clear, and not misleading. Option (c) aligns with this guideline by highlighting the importance of considering potential risks associated with investment-linked insurance, including market volatility and the possibility of loss. By providing such balanced information, Ms. Ng ensures compliance with GL8 and promotes informed decision-making among potential clients.",
+        "score": 1
+    },
+    {
+        "question_id": 15,
+        "question": "Mr. Wong, an insurance agent, is discussing investment-linked insurance products with a client who is interested in long-term savings. According to IIQE guidelines, which of the following statements by Mr. Wong would be most appropriate?",
+        "options": [
+            "A. \"It's important to understand that investment-linked insurance policies carry investment risks, and returns are dependent on market performance over the long term.\"",
+            "B. \"Investment-linked insurance policies guarantee fixed returns over the long term, ensuring financial security for your future.\"",
+            "C. \"Market volatility can impact investment-linked insurance policies, but they offer guaranteed returns for long-term savings.\"",
+            "D. \"You should avoid investment-linked insurance and opt for traditional savings accounts for long-term financial goals.\""
+        ],
+        "correctAnswer": "A",
+        "explanation": "IIQE guidelines emphasize the importance of providing accurate and balanced information to clients regarding investment-linked insurance products, particularly in the context of long-term savings. Option (a) aligns with this principle by highlighting the investment risks associated with investment-linked insurance policies and emphasizing the influence of market performance over the long term. By providing such balanced information, Mr. Wong ensures compliance with IIQE guidelines and promotes informed decision-making among clients.",
+        "score": 1
+    },
+    {
+        "question_id": 16,
+        "question": "Ms. Lee, an underwriter, is reviewing an application for a Class C insurance policy. The applicant has disclosed a history of chronic health conditions. According to the Guideline on Underwriting Class C Business (GL15), what action should Ms. Lee take regarding the applicant\u2019s health conditions?",
+        "options": [
+            "A. Automatically reject the application due to the applicant's chronic health conditions.",
+            "B. Request additional medical assessments to evaluate the impact of the applicant's health conditions on insurability.",
+            "C. Disregard the applicant's health conditions as they are not relevant to the Class C insurance policy.",
+            "D. Increase the premium rates for the policy to account for the applicant's health conditions."
+        ],
+        "correctAnswer": "B",
+        "explanation": "GL15 requires underwriters to conduct thorough assessments for Class C business, including evaluating factors such as the applicant\u2019s health conditions. Option (b) aligns with this requirement by recommending that Ms. Lee request additional medical assessments to evaluate the impact of the applicant\u2019s chronic health conditions on insurability. This approach ensures fair evaluation and appropriate risk pricing, consistent with GL15.",
+        "score": 1
+    },
+    {
+        "question_id": 17,
+        "question": "Mr. Cheung, an insurance agent, is hosting a workshop on retirement planning, with a focus on investment-linked insurance. Which of the following statements by Mr. Cheung would comply with IIQE guidelines?",
+        "options": [
+            "A. \"Investment-linked insurance offers guaranteed returns during retirement, providing a secure financial future for retirees.\"",
+            "B. \"With investment-linked insurance, you can expect fixed income streams throughout your retirement years, regardless of market conditions.\"",
+            "C. \"Market fluctuations can impact investment-linked insurance policies, but they offer flexibility and potential for growth in retirement savings.\"",
+            "D. \"It's advisable to avoid investment-linked insurance altogether and rely solely on government pension schemes for retirement income.\""
+        ],
+        "correctAnswer": "C",
+        "explanation": "IIQE guidelines emphasize the importance of providing accurate and balanced information to clients regarding investment-linked insurance products, especially in the context of retirement planning. Option (c) aligns with this principle by acknowledging the impact of market fluctuations on investment-linked insurance policies while also highlighting their flexibility and potential for growth in retirement savings. By providing such balanced information, Mr. Cheung ensures compliance with IIQE guidelines and promotes informed decision-making among workshop attendees.",
+        "score": 1
+    },
+    {
+        "question_id": 18,
+        "question": "Mr. Chan is a licensed insurance intermediary in Hong Kong. He has been practicing for several years and has recently decided to expand his services to include investment-linked long-term insurance products. Which of the following criteria is most relevant for Mr. Chan to fulfill under the \u201cFit and Proper\u201d guideline for licensed insurance intermediaries?",
+        "options": [
+            "A. Completion of a basic training course on insurance products.",
+            "B. A clean criminal record.",
+            "C. Proof of continuing professional development in insurance-linked long-term products.",
+            "D. Membership in a professional organization."
+        ],
+        "correctAnswer": "C",
+        "explanation": "Under the \u201cFit and Proper\u201d criteria outlined in the Guideline on \u201cFit and Proper\u201d Criteria for Licensed Insurance Intermediaries (GL23), licensed insurance intermediaries are required to maintain continuous professional development to ensure they remain knowledgeable and competent in the products they sell. Specifically, for individuals dealing with investment-linked long-term insurance products, it\u2019s essential to demonstrate ongoing education and training in this area to meet regulatory standards (Insurance Ordinance, Schedule 10, Section 88(1)(c)).",
+        "score": 1
+    },
+    {
+        "question_id": 19,
+        "question": "Ms. Wong, an insurance agent, has recently completed a specialized training program focused on investment-linked long-term insurance products. She is now eager to advise her clients on these products. According to the \u201cFit and Proper\u201d criteria, what additional responsibility does Ms. Wong bear regarding the information she provides to her clients?",
+        "options": [
+            "A. She must disclose her commission structure for selling investment-linked products.",
+            "B. She must ensure her clients invest in high-risk portfolios for better returns.",
+            "C. She must provide her clients with personalized investment advice without seeking professional guidance.",
+            "D. She must ensure her clients understand the risks associated with investment-linked products."
+        ],
+        "correctAnswer": "D",
+        "explanation": "Licensed insurance intermediaries, including insurance agents like Ms. Wong, have a duty to provide clear and accurate information to their clients, particularly regarding the risks associated with investment-linked long-term insurance products. This obligation stems from the \u201cFit and Proper\u201d criteria outlined in GL23 and the regulatory framework set forth in the Insurance Ordinance. By ensuring her clients understand the risks involved, Ms. Wong fulfills her obligation to act in the best interests of her clients and meets regulatory standards.",
+        "score": 1
+    },
+    {
+        "question_id": 20,
+        "question": "Mr. Lee, a licensed insurance broker, is approached by a client interested in purchasing an investment-linked long-term insurance policy. The client is a retired individual with a limited understanding of financial products. What is Mr. Lee\u2019s primary responsibility in this situation?",
+        "options": [
+            "A. Offer the client a variety of complex investment options to maximize potential returns.",
+            "B. Provide the client with a detailed analysis of market trends.",
+            "C. Ensure the investment-linked product is suitable for the client's financial situation and risk tolerance.",
+            "D. Persuade the client to purchase the policy without discussing alternatives."
+        ],
+        "correctAnswer": "C",
+        "explanation": "Mr. Lee, as a licensed insurance broker, is obligated to act in the best interests of his clients, as stipulated by the \u201cFit and Proper\u201d criteria under GL23. This includes conducting a thorough assessment of the client\u2019s financial situation, investment objectives, and risk tolerance to determine the suitability of an investment-linked long-term insurance policy. Providing suitable recommendations aligns with the principles of fair dealing and customer protection outlined in the Insurance Ordinance (Section 89(1)(b)). Therefore, option (c) is the correct choice as it reflects Mr. Lee\u2019s primary responsibility to ensure the recommended product meets the client\u2019s needs and circumstances.",
+        "score": 1
+    },
+    {
+        "question_id": 21,
+        "question": "Ms. Kwok, a licensed insurance intermediary, is considering recommending an investment-linked long-term insurance product to her client. The client is a young professional seeking both insurance coverage and potential investment growth. Which aspect should Ms. Kwok prioritize when assessing the suitability of the product for her client?",
+        "options": [
+            "A. The client's long-term financial goals and risk tolerance.",
+            "B. The premium payment schedule of the insurance policy.",
+            "C. The complexity of the investment options offered by the product.",
+            "D. The historical performance of the insurance company offering the product."
+        ],
+        "correctAnswer": "A",
+        "explanation": "When assessing the suitability of an investment-linked long-term insurance product for a client, Ms. Kwok should prioritize understanding the client\u2019s long-term financial goals and risk tolerance. This aligns with the principles outlined in GL23 regarding the importance of ensuring products are suitable for clients\u2019 needs and circumstances. By considering the client\u2019s objectives and risk appetite, Ms. Kwok can make recommendations that are in the client\u2019s best interests and comply with regulatory requirements set forth in the Insurance Ordinance.",
+        "score": 1
+    },
+    {
+        "question_id": 22,
+        "question": "Mr. Ho, a licensed insurance intermediary, is reviewing his client portfolio, which includes several investment-linked long-term insurance policies. One of his clients has expressed concerns about the performance of their policy\u2019s underlying investment funds. What should Mr. Ho advise his client to do in this situation?",
+        "options": [
+            "A. Encourage the client to surrender the policy immediately to avoid further losses.",
+            "B. Recommend switching to investment funds with higher management fees for better returns.",
+            "C. Explain the potential risks and benefits of staying invested versus surrendering the policy.",
+            "D. Suggest ignoring the concerns and continuing with the current investment strategy."
+        ],
+        "correctAnswer": "C",
+        "explanation": "As a licensed insurance intermediary, Mr. Ho has a duty to provide clear and objective advice to his clients, especially when they express concerns about their investment-linked long-term insurance policies. In this situation, Mr. Ho should explain the potential risks and benefits of both staying invested and surrendering the policy, taking into account the client\u2019s investment objectives and risk tolerance. This aligns with the principles of fair dealing and transparency outlined in GL23 and the regulatory requirements of the Insurance Ordinance. By providing comprehensive information, Mr. Ho assists his client in making informed decisions regarding their investment-linked insurance policy.",
+        "score": 1
+    },
+    {
+        "question_id": 23,
+        "question": "Ms. Lam, a licensed insurance intermediary, is approached by a young couple interested in purchasing an investment-linked long-term insurance policy. They express their desire to maximize their potential returns while ensuring sufficient coverage for their future needs. What should Ms. Lam consider when advising this couple?",
+        "options": [
+            "A. Recommending high-risk investment options to achieve maximum returns.",
+            "B. Balancing the couple's risk appetite with their long-term financial goals.",
+            "C. Persuading the couple to purchase additional coverage beyond their needs.",
+            "D. Focusing solely on the policy's premium affordability without considering investment performance."
+        ],
+        "correctAnswer": "B",
+        "explanation": "When advising clients like the young couple interested in investment-linked long-term insurance policies, Ms. Lam should prioritize balancing their risk appetite with their long-term financial goals. This involves assessing their willingness and capacity to take risks while aligning their investment strategy with their objectives. By considering these factors, Ms. Lam can provide suitable recommendations that meet the couple\u2019s needs and comply with regulatory requirements outlined in GL23. Option (b) is the correct choice as it reflects Ms. Lam\u2019s responsibility to ensure the recommended product aligns with the couple\u2019s risk tolerance and financial aspirations.",
+        "score": 1
+    },
+    {
+        "question_id": 24,
+        "question": "Mr. Yuen, a licensed insurance agent, is preparing a presentation on investment-linked long-term insurance products for a group of potential clients. What key information should Mr. Yuen emphasize regarding the features of these products?",
+        "options": [
+            "A. The tax benefits associated with investment-linked insurance policies.",
+            "B. The guaranteed returns offered by investment-linked insurance policies.",
+            "C. The absence of any risks associated with investment-linked insurance products.",
+            "D. The flexibility to switch between investment funds within the policy."
+        ],
+        "correctAnswer": "D",
+        "explanation": "When presenting information about investment-linked long-term insurance products, Mr. Yuen should emphasize the features that offer value to potential clients while ensuring transparency and compliance with regulatory standards. One such key feature is the flexibility to switch between investment funds within the policy, as outlined in GL23. This allows policyholders to adjust their investment strategy based on changing market conditions or personal preferences.",
+        "score": 1
+    },
+    {
+        "question_id": 25,
+        "question": "Ms. Cheung, a licensed insurance broker, is reviewing her client\u2019s existing investment-linked long-term insurance policy. The client has experienced a significant change in their financial circumstances and is concerned about maintaining their policy. What should Ms. Cheung advise her client to do?",
+        "options": [
+            "A. Explore options for adjusting the policy to better suit the client's current needs.",
+            "B. Recommend reducing the premium payments to alleviate financial strain.",
+            "C. Encourage the client to surrender the policy immediately to minimize financial losses.",
+            "D. Advise the client to ignore the financial concerns and continue with the current policy."
+        ],
+        "correctAnswer": "A",
+        "explanation": "When clients like Ms. Cheung\u2019s express concerns about their investment-linked long-term insurance policies due to significant changes in their financial circumstances, it\u2019s essential to explore options for adjusting the policy to better suit their current needs. This may involve modifying premium payments, altering coverage levels, or adjusting investment strategies, as outlined in GL23. By providing tailored solutions, Ms. Cheung assists her client in navigating changing financial situations while ensuring compliance with regulatory requirements.",
+        "score": 1
+    },
+    {
+        "question_id": 26,
+        "question": "Mr. Ng, a licensed insurance intermediary, is conducting a seminar on investment-linked long-term insurance products. During the seminar, a participant asks about the regulatory oversight of these products. What should Mr. Ng explain regarding the regulatory framework for investment-linked insurance?",
+        "options": [
+            "A. Investment-linked insurance products are not subject to any regulatory oversight.",
+            "B. The Insurance Authority oversees the sale and distribution of investment-linked insurance products.",
+            "C. Investment-linked insurance products are regulated solely by self-regulatory bodies.",
+            "D. The government has no involvement in regulating investment-linked insurance products."
+        ],
+        "correctAnswer": "B",
+        "explanation": "Mr. Ng should explain to seminar participants that the sale and distribution of investment-linked insurance products are subject to regulatory oversight by the Insurance Authority, as mandated by the Insurance Ordinance. The Insurance Authority ensures that insurance intermediaries comply with relevant laws, regulations, and guidelines, including GL23, to safeguard the interests of policyholders and maintain market integrity. Therefore, option (b) is the correct choice as it accurately reflects the regulatory framework governing investment-linked insurance products.",
+        "score": 1
+    },
+    {
+        "question_id": 27,
+        "question": "Mr. Wong, a licensed insurance agent, is discussing investment-linked long-term insurance products with his client, Mr. Cheng. Mr. Cheng expresses concern about the transparency of fees associated with these products. What should Mr. Wong advise Mr. Cheng regarding fee disclosure?",
+        "options": [
+            "A. Assure Mr. Cheng that all fees associated with investment-linked products are fully disclosed in the policy documents.",
+            "B. Recommend that Mr. Cheng refrain from investing in investment-linked products due to the complexity of fee structures.",
+            "C. Explain the importance of fee transparency and provide Mr. Cheng with detailed information on all applicable fees.",
+            "D. Suggest that Mr. Cheng disregard fee disclosures as they have minimal impact on investment performance."
+        ],
+        "correctAnswer": "C",
+        "explanation": "Mr. Wong should emphasize the importance of fee transparency to Mr. Cheng and provide detailed information on all applicable fees associated with investment-linked long-term insurance products. This aligns with regulatory requirements outlined in GL23, which emphasize the need for clear and accurate disclosure of fees to ensure clients are fully informed about the costs associated with their investments. By addressing Mr. Cheng\u2019s concerns and providing transparent information, Mr. Wong fulfills his duty to act in the best interests of his client and comply with regulatory standards.",
+        "score": 1
+    },
+    {
+        "question_id": 28,
+        "question": "Ms. Chan, a licensed insurance intermediary, is advising a client who is interested in purchasing an investment-linked long-term insurance policy. The client is nearing retirement and seeks a stable source of income while also wanting to participate in potential market gains. What key aspect should Ms. Chan consider when recommending a suitable policy?",
+        "options": [
+            "A. The policy's surrender value in case of early termination.",
+            "B. The availability of guaranteed returns regardless of market performance.",
+            "C. The exclusions and limitations of the policy's death benefit.",
+            "D. The balance between insurance coverage and investment opportunities."
+        ],
+        "correctAnswer": "D",
+        "explanation": "Ms. Chan should prioritize assessing the balance between insurance coverage and investment opportunities when recommending a suitable investment-linked long-term insurance policy for a client nearing retirement. This involves considering the client\u2019s need for stable income alongside their desire to participate in potential market gains, as outlined in GL23. By striking the right balance between these factors, Ms. Chan can provide a recommendation that meets the client\u2019s objectives and complies with regulatory standards.",
+        "score": 1
+    },
+    {
+        "question_id": 29,
+        "question": "Mr. Lau, a licensed insurance agent, is explaining the concept of \u201ccooling-off period\u201d to a potential client interested in an investment-linked long-term insurance policy. What should Mr. Lau clarify regarding this provision?",
+        "options": [
+            "A. The cooling-off period allows clients to cancel their policies within a specified timeframe without penalty.",
+            "B. The cooling-off period applies only to certain types of insurance policies, excluding investment-linked products.",
+            "C. Clients must pay a fee to exercise their right to cancel during the cooling-off period.",
+            "D. The cooling-off period does not apply if the policyholder has already made an initial premium payment."
+        ],
+        "correctAnswer": "A",
+        "explanation": "Mr. Lau should clarify to the potential client that the cooling-off period provision allows clients to cancel their insurance policies, including investment-linked long-term insurance policies, within a specified timeframe without penalty. This provision is designed to protect consumers by giving them an opportunity to reconsider their purchase decision and cancel the policy if they change their minds. The Insurance Ordinance mandates the inclusion of cooling-off periods for certain types of insurance policies, as outlined in Section 65E. Therefore, option (a) is the correct choice as it accurately reflects the purpose and function of the cooling-off period provision.",
+        "score": 1
+    },
+    {
+        "question_id": 30,
+        "question": "Ms. Ho, a licensed insurance broker, is conducting a suitability assessment for a client interested in purchasing an investment-linked long-term insurance policy. What factor should Ms. Ho primarily consider when determining the suitability of the policy for her client?",
+        "options": [
+            "A. The policy's potential investment returns compared to market benchmarks.",
+            "B. The client's age and current health status.",
+            "C. The insurance company's financial stability and reputation.",
+            "D. The premium affordability and payment schedule."
+        ],
+        "correctAnswer": "B",
+        "explanation": "When conducting a suitability assessment for an investment-linked long-term insurance policy, Ms. Ho should primarily consider the client\u2019s age and current health status. This information is crucial for determining the client\u2019s insurability and assessing their long-term financial needs. GL23 emphasizes the importance of considering clients\u2019 personal circumstances and risk factors when recommending insurance products. By prioritizing the client\u2019s age and health status, Ms. Ho ensures that the recommended policy aligns with the client\u2019s needs and complies with regulatory requirements.",
+        "score": 1
+    }
+]

@@ -1,0 +1,392 @@
+[
+    {
+        "question_id": 1,
+        "question": "What should a travel insurance agent consider when underwriting a policy for a client traveling to high-risk destinations?",
+        "options": [
+            "A. Assessing the specific risks associated with the destination and offering appropriate coverage options",
+            "B. Offering the client a standard policy without any additional coverage",
+            "C. Advising the client to cancel their trip due to the high risk involved",
+            "D. Automatically denying coverage for any travel to high-risk destinations"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Underwriting travel insurance policies involves assessing various factors, including the destination\u2019s risk level. According to the Insurance Authority (IA) of Hong Kong, insurance agents are required to conduct proper risk assessment and provide suitable coverage options to clients based on their individual needs and the specific risks associated with their travel plans (IA\u2019s Guideline on Travel Insurance Business). Simply denying coverage or offering standard policies without considering the destination\u2019s risk would not fulfill the agent\u2019s duty to provide adequate protection to the client.",
+        "score": 1
+    },
+    {
+        "question_id": 2,
+        "question": "In the context of travel insurance underwriting, what action should an agent take if a client has a pre-existing medical condition?",
+        "options": [
+            "A. Refuse coverage for the entire trip",
+            "B. Provide coverage without any additional requirements",
+            "C. Offer coverage with appropriate exclusions related to the pre-existing condition",
+            "D. Advise the client to seek coverage from another insurer"
+        ],
+        "correctAnswer": "C",
+        "explanation": "According to the Code of Conduct for Licensed Insurance Agents issued by the Insurance Authority, insurance agents should provide clear and accurate information to clients regarding coverage, including any exclusions related to pre-existing medical conditions. It\u2019s important for agents to offer coverage options tailored to the client\u2019s needs while ensuring transparency about the limitations of coverage, especially when pre-existing conditions are involved.",
+        "score": 1
+    },
+    {
+        "question_id": 3,
+        "question": "Mr. Wong is planning a backpacking trip across several countries in Asia. He intends to engage in adventure sports activities during his trip. As his insurance agent, what advice should you provide regarding his travel insurance coverage?",
+        "options": [
+            "A. Advise Mr. Wong to proceed with his trip without purchasing additional coverage",
+            "B. Discourage Mr. Wong from participating in adventure sports to avoid coverage complications",
+            "C. Recommend a comprehensive travel insurance policy that includes coverage for adventure sports",
+            "D. Suggest Mr. Wong purchase a basic travel insurance policy without coverage for adventure sports"
+        ],
+        "correctAnswer": "C",
+        "explanation": "When advising clients like Mr. Wong who plan to engage in adventure sports activities during their travels, it\u2019s essential to recommend appropriate coverage that includes provisions for such activities. According to the IA\u2019s Guidelines on Travel Insurance Business, agents should assess the specific risks associated with the client\u2019s travel plans and recommend suitable coverage options to provide adequate protection. Failure to advise on coverage for adventure sports could leave the client vulnerable to potential risks and coverage gaps.",
+        "score": 1
+    },
+    {
+        "question_id": 4,
+        "question": "Ms. Lee is planning a business trip to Europe to attend a conference. She wants to purchase travel insurance to cover her trip. What factors should she consider when selecting a suitable policy?",
+        "options": [
+            "A. Only consider the cost of the policy",
+            "B. Choose the policy with the highest coverage limit",
+            "C. Select the policy with the shortest application process",
+            "D. Evaluate the coverage provisions, including medical expenses, trip cancellation, and baggage loss"
+        ],
+        "correctAnswer": "D",
+        "explanation": "When selecting a travel insurance policy, it\u2019s crucial for clients like Ms. Lee to consider various factors beyond just the cost or coverage limit. The IA emphasizes the importance of understanding the coverage provisions, including coverage for medical expenses, trip cancellation, baggage loss, and other relevant benefits (IA\u2019s Guideline on Travel Insurance Business). Clients should choose a policy that aligns with their specific travel needs and provides comprehensive protection against potential risks.",
+        "score": 1
+    },
+    {
+        "question_id": 5,
+        "question": "As a travel insurance agent, what steps should you take to ensure fair and accurate premium rates for clients?",
+        "options": [
+            "A. Apply a standard premium rate for all clients regardless of their individual risk factors",
+            "B. Base premium rates solely on the client's age and destination",
+            "C. Conduct thorough risk assessment and adjust premium rates accordingly",
+            "D. Offer discounts on premiums to attract more clients"
+        ],
+        "correctAnswer": "C",
+        "explanation": "Fair and accurate premium rates in travel insurance are determined through thorough risk assessment, considering various factors such as the client\u2019s travel destination, age, health status, and any other relevant risk factors. According to the IA\u2019s Guidelines on Travel Insurance Business, insurance agents are responsible for assessing risks accurately and setting premium rates accordingly to ensure fair treatment of clients. Offering standardized rates without considering individual risk factors would not align with the principles of underwriting and could lead to inadequate coverage or unfair pricing.",
+        "score": 1
+    },
+    {
+        "question_id": 6,
+        "question": "Mrs. Chan is planning a family vacation to a remote island with limited medical facilities. What advice should you give her regarding travel insurance coverage?",
+        "options": [
+            "A. Encourage Mrs. Chan to purchase a comprehensive policy that includes emergency medical evacuation",
+            "B. Recommend a basic travel insurance policy without medical coverage",
+            "C. Suggest Mrs. Chan to rely on her existing health insurance for coverage",
+            "D. Advise Mrs. Chan to forgo travel insurance as it may not be necessary for her trip"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Given the limited medical facilities on the remote island, it\u2019s crucial for Mrs. Chan to have comprehensive travel insurance coverage, including provisions for emergency medical evacuation. The Insurance Authority\u2019s Guidelines on Travel Insurance Business highlight the importance of providing adequate coverage for medical emergencies, especially in areas with limited healthcare infrastructure. Recommending a comprehensive policy with emergency medical evacuation ensures Mrs. Chan and her family are adequately protected in case of medical emergencies during their trip.",
+        "score": 1
+    },
+    {
+        "question_id": 7,
+        "question": "Mr. Patel is a frequent business traveler who often visits countries with unstable political situations. What should you advise him regarding travel insurance coverage?",
+        "options": [
+            "A. Recommend a basic travel insurance policy without coverage for political unrest",
+            "B. Encourage Mr. Patel to avoid traveling to such countries to minimize risks",
+            "C. Suggest Mr. Patel purchase a policy that includes coverage for trip cancellation due to political unrest",
+            "D. Advise Mr. Patel to rely on his employer's insurance coverage for his business trips"
+        ],
+        "correctAnswer": "C",
+        "explanation": "Given Mr. Patel\u2019s frequent travel to countries with unstable political situations, it\u2019s prudent to recommend a travel insurance policy that includes coverage for trip cancellation due to political unrest. The Insurance Authority\u2019s Guidelines on Travel Insurance Business emphasize the importance of providing coverage for unforeseen events, including trip cancellation due to political unrest or other external factors. Advising Mr. Patel to purchase a policy with such coverage ensures he is protected against potential financial losses resulting from trip cancellations due to political instability.",
+        "score": 1
+    },
+    {
+        "question_id": 8,
+        "question": "Ms. Garcia is planning a cruise vacation that includes multiple destinations. What considerations should she keep in mind when selecting travel insurance coverage?",
+        "options": [
+            "A. Focus solely on coverage for cruise-related incidents such as trip interruption or missed port departures",
+            "B. Choose a policy with coverage limited to medical emergencies only",
+            "C. Select a comprehensive policy that includes coverage for various travel-related risks, including medical emergencies, trip cancellation, and baggage loss",
+            "D. Opt for the cheapest policy available to save on expenses"
+        ],
+        "correctAnswer": "C",
+        "explanation": "When selecting travel insurance coverage for a cruise vacation with multiple destinations, Ms. Garcia should prioritize a comprehensive policy that covers various travel-related risks beyond just cruise-related incidents. The Insurance Authority\u2019s Guidelines on Travel Insurance Business emphasize the importance of comprehensive coverage to ensure adequate protection for travelers against unforeseen events, including medical emergencies, trip cancellation, and baggage loss. Advising Ms. Garcia to choose a comprehensive policy aligns with the principle of providing comprehensive protection tailored to the client\u2019s travel needs.",
+        "score": 1
+    },
+    {
+        "question_id": 9,
+        "question": "Mr. Kim plans to travel to a country with a high incidence of natural disasters. What advice should you provide regarding his travel insurance coverage?",
+        "options": [
+            "A. Suggest Mr. Kim purchase a policy that includes coverage for natural disasters such as earthquakes or hurricanes",
+            "B. Advise Mr. Kim to cancel his trip due to the high risk of natural disasters",
+            "C. Recommend a basic travel insurance policy without coverage for natural disasters",
+            "D. Advise Mr. Kim to rely on government assistance in case of natural disasters"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Given the high incidence of natural disasters in the destination country, it\u2019s essential for Mr. Kim to have travel insurance coverage that includes provisions for such events. The Insurance Authority\u2019s Guidelines on Travel Insurance Business highlight the importance of providing coverage for various unforeseen events, including natural disasters, to ensure travelers are adequately protected. Recommending a policy with coverage for natural disasters aligns with the principle of providing comprehensive protection tailored to the specific risks associated with Mr. Kim\u2019s travel plans.",
+        "score": 1
+    },
+    {
+        "question_id": 10,
+        "question": "Mr. Johnson is a frequent traveler who often visits countries with different visa requirements. What advice should you offer him regarding travel insurance coverage?",
+        "options": [
+            "A. Recommend a basic travel insurance policy without considering visa requirements",
+            "B. Encourage Mr. Johnson to purchase a policy that includes coverage for visa-related issues such as trip interruption due to visa denial",
+            "C. Suggest Mr. Johnson rely on his travel agency to handle visa-related matters separately from insurance coverage",
+            "D. Advise Mr. Johnson to forgo travel insurance as visa-related issues are not typically covered"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Given Mr. Johnson\u2019s frequent travels to countries with different visa requirements, it\u2019s important to recommend a travel insurance policy that includes coverage for visa-related issues. The Insurance Authority\u2019s Guidelines on Travel Insurance Business emphasize the importance of providing coverage for unforeseen events that could disrupt travel plans, including trip interruption due to visa denial. Advising Mr. Johnson to purchase a policy with such coverage ensures he is protected against potential financial losses resulting from visa-related issues during his travels.",
+        "score": 1
+    },
+    {
+        "question_id": 11,
+        "question": "Ms. Nguyen is planning a group tour to a remote mountainous region known for its challenging terrain. What considerations should she take into account when selecting travel insurance coverage?",
+        "options": [
+            "A. Focus solely on coverage for medical emergencies related to injuries sustained during outdoor activities",
+            "B. Choose a policy with coverage limited to trip cancellation in case the tour is canceled due to adverse weather conditions",
+            "C. Select a policy that includes coverage for emergency evacuation from remote locations and medical expenses related to outdoor injuries",
+            "D. Opt for the cheapest policy available to minimize expenses for the group"
+        ],
+        "correctAnswer": "C",
+        "explanation": "When selecting travel insurance coverage for a group tour to a remote mountainous region, Ms. Nguyen should prioritize a policy that includes coverage for emergency evacuation from remote locations and medical expenses related to outdoor injuries. The Insurance Authority\u2019s Guidelines on Travel Insurance Business highlight the importance of providing comprehensive coverage for travelers, especially in remote or high-risk locations. Advising Ms. Nguyen to choose a policy with such coverage ensures the safety and well-being of the group members in case of emergencies during their tour.",
+        "score": 1
+    },
+    {
+        "question_id": 12,
+        "question": "Mr. Tan is planning a backpacking trip to several countries in Europe, staying in budget accommodations and using public transportation. What factors should he consider when selecting travel insurance coverage?",
+        "options": [
+            "A. Focus solely on coverage for theft or loss of personal belongings",
+            "B. Choose a policy with coverage limited to medical emergencies in case of illness or injury during the trip",
+            "C. Select a comprehensive policy that includes coverage for medical emergencies, trip cancellation, and theft or loss of personal belongings",
+            "D. Opt for a basic policy without considering coverage for unforeseen events"
+        ],
+        "correctAnswer": "C",
+        "explanation": "When selecting travel insurance coverage for a backpacking trip to multiple countries, Mr. Tan should prioritize a comprehensive policy that includes coverage for various unforeseen events. The Insurance Authority\u2019s Guidelines on Travel Insurance Business emphasize the importance of providing comprehensive protection for travelers, including coverage for medical emergencies, trip cancellation, and theft or loss of personal belongings. Advising Mr. Tan to choose a policy with such coverage ensures he is adequately protected against potential risks during his backpacking journey.",
+        "score": 1
+    },
+    {
+        "question_id": 13,
+        "question": "Ms. Chen is planning a vacation to a tropical island known for its pristine beaches and water activities. What advice should you provide her regarding travel insurance coverage?",
+        "options": [
+            "A. Recommend a basic travel insurance policy without coverage for water activities",
+            "B. Advise Ms. Chen to forgo travel insurance as water-related incidents are rare",
+            "C. Suggest Ms. Chen rely on the resort's insurance coverage for any water-related incidents",
+            "D. Encourage Ms. Chen to purchase a policy that includes coverage for water sports and activities"
+        ],
+        "correctAnswer": "D",
+        "explanation": "Given Ms. Chen\u2019s vacation plans involving water activities, it\u2019s important to recommend a travel insurance policy that includes coverage for such activities. The Insurance Authority\u2019s Guidelines on Travel Insurance Business emphasize the importance of providing coverage for various recreational activities, including water sports, to ensure travelers are adequately protected against potential risks. Advising Ms. Chen to purchase a policy with coverage for water activities aligns with the principle of providing comprehensive protection tailored to the client\u2019s specific travel needs.",
+        "score": 1
+    },
+    {
+        "question_id": 14,
+        "question": "Mr. Rodriguez is planning a business trip to a country with a high risk of civil unrest. What advice should you offer him regarding travel insurance coverage?",
+        "options": [
+            "A. Encourage Mr. Rodriguez to purchase a policy that includes coverage for trip interruption due to civil unrest",
+            "B. Recommend a basic travel insurance policy without coverage for civil unrest",
+            "C. Suggest Mr. Rodriguez rely on his employer's insurance coverage for his business trip",
+            "D. Advise Mr. Rodriguez to forgo travel insurance as civil unrest is unlikely to affect his trip"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Given the high risk of civil unrest in the destination country, it\u2019s essential for Mr. Rodriguez to have travel insurance coverage that includes provisions for such events. The Insurance Authority\u2019s Guidelines on Travel Insurance Business highlight the importance of providing coverage for unforeseen events that could disrupt travel plans, including trip interruption due to civil unrest. Advising Mr. Rodriguez to purchase a policy with such coverage ensures he is protected against potential financial losses resulting from trip disruptions caused by civil unrest during his business trip.",
+        "score": 1
+    },
+    {
+        "question_id": 15,
+        "question": "Ms. Wang is planning a vacation to a country with a high incidence of infectious diseases. What advice should you provide her regarding travel insurance coverage?",
+        "options": [
+            "A. Encourage Ms. Wang to purchase a policy that includes coverage for medical expenses related to infectious diseases",
+            "B. Recommend a basic travel insurance policy without coverage for infectious diseases",
+            "C. Suggest Ms. Wang rely on her own healthcare coverage for medical expenses during her trip",
+            "D. Advise Ms. Wang to forgo travel insurance as infectious diseases are unlikely to affect her trip"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Given the high incidence of infectious diseases in the destination country, it\u2019s crucial for Ms. Wang to have travel insurance coverage that includes provisions for medical expenses related to such diseases. The Insurance Authority\u2019s Guidelines on Travel Insurance Business emphasize the importance of providing comprehensive coverage for travelers, including coverage for medical emergencies, to ensure they are adequately protected against potential risks during their trips. Advising Ms. Wang to purchase a policy with coverage for infectious diseases aligns with the principle of providing comprehensive protection tailored to the specific risks associated with her travel plans.",
+        "score": 1
+    },
+    {
+        "question_id": 16,
+        "question": "Mr. Khan is planning a solo backpacking trip through remote wilderness areas. What advice should you offer him regarding travel insurance coverage?",
+        "options": [
+            "A. Recommend a basic travel insurance policy without coverage for wilderness activities",
+            "B. Encourage Mr. Khan to purchase a policy that includes coverage for emergency evacuation from remote locations",
+            "C. Suggest Mr. Khan rely on his own emergency funds for any unforeseen expenses during his trip",
+            "D. Advise Mr. Khan to forgo travel insurance as wilderness activities are unlikely to pose any risks"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Given Mr. Khan\u2019s solo backpacking trip through remote wilderness areas, it\u2019s essential for him to have travel insurance coverage that includes provisions for emergency evacuation from remote locations. The Insurance Authority\u2019s Guidelines on Travel Insurance Business highlight the importance of providing coverage for unforeseen events, especially in remote or high-risk locations, to ensure travelers are adequately protected. Advising Mr. Khan to purchase a policy with coverage for emergency evacuation aligns with the principle of providing comprehensive protection tailored to the specific risks associated with his travel plans.",
+        "score": 1
+    },
+    {
+        "question_id": 17,
+        "question": "Ms. Yamamoto is planning a family vacation to a ski resort in a mountainous region. What considerations should she take into account when selecting travel insurance coverage?",
+        "options": [
+            "A. Focus solely on coverage for skiing-related injuries",
+            "B. Choose a policy with coverage limited to trip cancellation due to adverse weather conditions",
+            "C. Opt for the cheapest policy available to save on expenses",
+            "D. Select a comprehensive policy that includes coverage for medical emergencies, trip cancellation, and skiing-related injuries"
+        ],
+        "correctAnswer": "D",
+        "explanation": "When selecting travel insurance coverage for a family vacation to a ski resort, Ms. Yamamoto should prioritize a comprehensive policy that includes coverage for various travel-related risks. The Insurance Authority\u2019s Guidelines on Travel Insurance Business emphasize the importance of providing comprehensive protection for travelers, including coverage for medical emergencies, trip cancellation, and specific activities such as skiing. Advising Ms. Yamamoto to choose a policy with such coverage ensures her family is adequately protected against potential risks during their ski vacation.",
+        "score": 1
+    },
+    {
+        "question_id": 18,
+        "question": "Which of the following scenarios would likely be covered under the Personal Accident Benefits section of a travel insurance policy?",
+        "options": [
+            "A. Losing luggage during a trip",
+            "B. Falling ill with a pre-existing condition before the trip",
+            "C. Sustaining injuries from a car accident while on vacation",
+            "D. Canceling the trip due to work commitments"
+        ],
+        "correctAnswer": "C",
+        "explanation": "Under the Personal Accident Benefits section of a travel insurance policy, coverage typically applies to injuries sustained during the trip, such as those resulting from accidents. In this scenario, sustaining injuries from a car accident while on vacation falls under the scope of Personal Accident Benefits. This is because travel insurance policies often include coverage for accidental bodily injuries or death occurring during the trip. According to the Insurance Companies Ordinance (Cap. 41), insurance policies must clearly define the coverage and exclusions, and in this case, injuries from a car accident while traveling are generally covered.",
+        "score": 1
+    },
+    {
+        "question_id": 19,
+        "question": "In the context of travel insurance, what is the purpose of the Personal Accident Benefits section?",
+        "options": [
+            "A. To cover the cost of medical treatment for pre-existing conditions",
+            "B. To provide compensation for lost luggage during the trip",
+            "C. To protect travelers against financial loss due to trip cancellation",
+            "D. To offer coverage for accidental bodily injuries or death during the trip"
+        ],
+        "correctAnswer": "D",
+        "explanation": "The Personal Accident Benefits section of travel insurance serves to provide coverage for accidental bodily injuries or death occurring during the trip. This coverage is crucial for travelers, as it offers financial protection in the event of unforeseen accidents leading to injuries or fatalities. According to the guidelines set by the Insurance Authority of Hong Kong, travel insurance policies must clearly specify the coverage provided under each section, including Personal Accident Benefits, to ensure transparency and clarity for policyholders.",
+        "score": 1
+    },
+    {
+        "question_id": 20,
+        "question": "Mr. Li is on a vacation trip to Japan when he gets injured while participating in a skiing activity. Which section of his travel insurance policy is most likely to cover his medical expenses?",
+        "options": [
+            "A. Trip Cancellation",
+            "B. Baggage Delay",
+            "C. Medical Evacuation",
+            "D. Personal Accident Benefits"
+        ],
+        "correctAnswer": "D",
+        "explanation": "In this scenario, Mr. Li sustained injuries while participating in a skiing activity during his vacation trip. Such injuries resulting from accidents during the trip are typically covered under the Personal Accident Benefits section of a travel insurance policy. This section provides coverage for accidental bodily injuries or death occurring during the trip, including injuries sustained during recreational activities like skiing. According to the guidelines of the Insurance Authority of Hong Kong, travel insurance policies must clearly outline the coverage provided under each section, ensuring that policyholders understand the extent of their protection.",
+        "score": 1
+    },
+    {
+        "question_id": 21,
+        "question": "Which of the following situations is likely to trigger coverage under the Personal Accident Benefits section of a travel insurance policy?",
+        "options": [
+            "A. Missing a flight due to oversleeping",
+            "B. Falling ill with a pre-existing condition before the trip",
+            "C. Sustaining injuries from a terrorist attack while abroad",
+            "D. Losing travel documents during the trip"
+        ],
+        "correctAnswer": "C",
+        "explanation": "The Personal Accident Benefits section of a travel insurance policy typically covers accidental bodily injuries or death occurring during the trip. In this scenario, sustaining injuries from a terrorist attack while abroad would likely trigger coverage under this section. Travel insurance policies often include coverage for injuries resulting from acts of terrorism, providing financial protection to travelers in such unfortunate events. This aligns with the regulations outlined by the Insurance Authority of Hong Kong, which emphasize the importance of clear and comprehensive coverage provisions in insurance policies.",
+        "score": 1
+    },
+    {
+        "question_id": 22,
+        "question": "Ms. Wong, a travel insurance policyholder, suffers a fractured leg during a hiking excursion while on vacation. Which section of her policy is most likely to provide coverage for her medical expenses?",
+        "options": [
+            "A. Trip Interruption",
+            "B. Emergency Medical Evacuation",
+            "C. Personal Accident Benefits",
+            "D. Trip Delay"
+        ],
+        "correctAnswer": "D",
+        "explanation": "In this scenario, Ms. Wong sustained a fractured leg during a hiking excursion while on vacation. Such accidental bodily injuries occurring during the trip are typically covered under the Personal Accident Benefits section of a travel insurance policy. This section provides coverage for injuries resulting from accidents during the trip, including those sustained during recreational activities like hiking. The Insurance Authority of Hong Kong mandates that insurance policies clearly define the coverage provided under each section, ensuring that policyholders are adequately informed about their protection against unforeseen events during travel.",
+        "score": 1
+    },
+    {
+        "question_id": 23,
+        "question": "Which of the following scenarios would likely be covered under the Personal Accident Benefits section of a travel insurance policy?",
+        "options": [
+            "A. Losing a passport while sightseeing",
+            "B. Falling ill with a flu before the trip",
+            "C. Sustaining injuries from a water sports accident during the trip",
+            "D. Damaging personal belongings in a hotel room"
+        ],
+        "correctAnswer": "C",
+        "explanation": "The Personal Accident Benefits section of a travel insurance policy typically covers accidental bodily injuries or death occurring during the trip. In this scenario, sustaining injuries from a water sports accident during the trip would likely trigger coverage under this section. Travel insurance policies often include coverage for injuries resulting from recreational activities like water sports, providing financial protection to travelers in case of accidents. This aligns with the regulations set by the Insurance Authority of Hong Kong, which emphasize the importance of comprehensive coverage provisions in insurance policies to protect policyholders during travel.",
+        "score": 1
+    },
+    {
+        "question_id": 24,
+        "question": "What is the primary purpose of including Personal Accident Benefits in a travel insurance policy?",
+        "options": [
+            "A. To compensate for trip cancellation expenses",
+            "B. To cover medical expenses for pre-existing conditions",
+            "C. To provide financial assistance for lost luggage",
+            "D. To offer coverage for accidental injuries or death during the trip"
+        ],
+        "correctAnswer": "D",
+        "explanation": "The primary purpose of including Personal Accident Benefits in a travel insurance policy is to provide coverage for accidental bodily injuries or death occurring during the trip. This coverage offers financial protection to travelers in case of unforeseen accidents or injuries while traveling. According to the guidelines of the Insurance Authority of Hong Kong, travel insurance policies must clearly specify the coverage provided under each section, including Personal Accident Benefits, to ensure that policyholders understand the extent of their protection during travel.",
+        "score": 1
+    },
+    {
+        "question_id": 25,
+        "question": "Ms. Chan is on a business trip to Singapore when she falls and fractures her arm. Which section of her travel insurance policy is most likely to cover her medical expenses?",
+        "options": [
+            "A. Trip Delay",
+            "B. Baggage Loss",
+            "C. Personal Accident Benefits",
+            "D. Medical Evacuation"
+        ],
+        "correctAnswer": "C",
+        "explanation": "In this scenario, Ms. Chan sustained a fractured arm during her business trip to Singapore. Such accidental bodily injuries occurring during the trip are typically covered under the Personal Accident Benefits section of a travel insurance policy. This section provides coverage for injuries resulting from accidents during the trip, including slips, falls, or other mishaps. The Insurance Authority of Hong Kong requires insurance policies to clearly define the coverage provided under each section, ensuring that policyholders are adequately protected against unexpected events during travel.",
+        "score": 1
+    },
+    {
+        "question_id": 26,
+        "question": "Which of the following situations is likely to trigger coverage under the Personal Accident Benefits section of a travel insurance policy?",
+        "options": [
+            "A. Missing a connecting flight due to a delay",
+            "B. Falling ill with food poisoning during the trip",
+            "C. Losing a camera while exploring tourist attractions",
+            "D. Sustaining injuries from a fall while hiking in the mountains"
+        ],
+        "correctAnswer": "D",
+        "explanation": "The Personal Accident Benefits section of a travel insurance policy typically covers accidental bodily injuries or death occurring during the trip. In this scenario, sustaining injuries from a fall while hiking in the mountains would likely trigger coverage under this section. Travel insurance policies often include coverage for injuries resulting from adventurous activities like hiking, providing financial protection to travelers in case of accidents. This is consistent with the regulations established by the Insurance Authority of Hong Kong, which emphasize the importance of comprehensive coverage provisions in travel insurance policies.",
+        "score": 1
+    },
+    {
+        "question_id": 27,
+        "question": "Mr. Ho, a travel insurance policyholder, experiences a severe allergic reaction to seafood while dining out during his vacation. Which section of his policy is most likely to provide coverage for his medical expenses?",
+        "options": [
+            "A. Trip Cancellation",
+            "B. Trip Interruption",
+            "C. Personal Accident Benefits",
+            "D. Emergency Medical Evacuation"
+        ],
+        "correctAnswer": "D",
+        "explanation": "In this scenario, Mr. Ho experienced a severe allergic reaction to seafood while dining out during his vacation. While Personal Accident Benefits typically cover accidental bodily injuries or death occurring during the trip, medical expenses related to allergic reactions may fall under the Emergency Medical Evacuation section of a travel insurance policy. This section provides coverage for emergency medical treatment and evacuation in situations where immediate medical attention is required. The Insurance Authority of Hong Kong mandates that insurance policies clearly outline the coverage provided under each section, ensuring that policyholders are adequately protected against medical emergencies during travel.",
+        "score": 1
+    },
+    {
+        "question_id": 28,
+        "question": "Which of the following scenarios is likely covered under the Personal Accident Benefits section of a travel insurance policy?",
+        "options": [
+            "A. Missing a flight due to traffic congestion",
+            "B. Contracting a mild cold during the trip",
+            "C. Sustaining injuries from a zip-lining accident while on vacation",
+            "D. Losing a smartphone while sightseeing"
+        ],
+        "correctAnswer": "C",
+        "explanation": "The Personal Accident Benefits section of a travel insurance policy typically covers accidental bodily injuries or death occurring during the trip. In this scenario, sustaining injuries from a zip-lining accident while on vacation would likely trigger coverage under this section. Travel insurance policies often include coverage for injuries resulting from adventurous activities like zip-lining, providing financial protection to travelers in case of accidents. This aligns with the regulations set by the Insurance Authority of Hong Kong, which emphasize the importance of comprehensive coverage provisions in travel insurance policies.",
+        "score": 1
+    },
+    {
+        "question_id": 29,
+        "question": "What is the primary purpose of the Personal Accident Benefits section in a travel insurance policy?",
+        "options": [
+            "A. To compensate travelers for lost baggage",
+            "B. To cover medical expenses for routine check-ups",
+            "C. To provide financial assistance for trip cancellations",
+            "D. To offer coverage for accidental injuries or death during travel"
+        ],
+        "correctAnswer": "D",
+        "explanation": "The primary purpose of the Personal Accident Benefits section in a travel insurance policy is to provide coverage for accidental bodily injuries or death occurring during travel. This coverage offers financial protection to travelers in case of unforeseen accidents or injuries while away from home. According to the guidelines of the Insurance Authority of Hong Kong, travel insurance policies must clearly specify the coverage provided under each section, including Personal Accident Benefits, to ensure transparency and clarity for policyholders.",
+        "score": 1
+    },
+    {
+        "question_id": 30,
+        "question": "Mr. Smith is on a hiking trip in New Zealand when he fractures his ankle. Which section of his travel insurance policy is most likely to cover his medical expenses?",
+        "options": [
+            "A. Trip Interruption",
+            "B. Personal Accident Benefits",
+            "C. Baggage Delay",
+            "D. Emergency Medical Evacuation"
+        ],
+        "correctAnswer": "B",
+        "explanation": "In this scenario, Mr. Smith sustained a fractured ankle during his hiking trip in New Zealand. Such accidental bodily injuries occurring during the trip are typically covered under the Personal Accident Benefits section of a travel insurance policy. This section provides coverage for injuries resulting from accidents during the trip, including slips, falls, or other mishaps. The Insurance Authority of Hong Kong mandates that insurance policies clearly define the coverage provided under each section, ensuring that policyholders are adequately informed about their protection during travel.",
+        "score": 1
+    }
+]
