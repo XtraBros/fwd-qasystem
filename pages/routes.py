@@ -54,3 +54,11 @@ def hksubpage3():
         answers = request.form.to_dict()
         return jsonify(answers)
     return render_template('hk_module_3.html')
+
+# Actuary exam
+@pages.route('/actuary', methods=['GET', 'POST'])
+def actuary():
+    if request.method == 'POST':
+        answers = request.form.to_dict()
+        return jsonify(answers)
+    return render_template('actuary.html')

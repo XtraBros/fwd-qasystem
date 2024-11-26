@@ -78,3 +78,40 @@ input[type="checkbox"] {
 .question {
     margin-bottom: 20px;
 }
+.question-data-table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures borders don't overlap */
+    margin: 10px 0;
+    text-align: left;
+}
+
+.question-data-table th,
+.question-data-table td {
+    border: 1px solid #ddd; /* Light grey grid */
+    padding: 8px;
+}
+
+.question-data-table th {
+    background-color: #f4f4f4; /* Optional: Highlight headers */
+    font-weight: bold;
+}
+.answer-input {
+    display: flex; /* Aligns the label and input box horizontally */
+    align-items: center; /* Ensures vertical alignment */
+    gap: 8px; /* Adds spacing between label and input */
+    margin-top: 10px;
+}
+
+.answer-input label {
+    font-size: 16px; /* Matches the text size */
+}
+
+.answer-input textarea {
+    width: auto; /* Adapts the width to content */
+    height: auto; /* Removes unnecessary height */
+    font-size: 16px; /* Matches the text size */
+    padding: 4px; /* Adjust padding for consistency */
+    resize: none; /* Prevents resizing of the box */
+    border: 1px solid #ccc; /* Adds a subtle border */
+    border-radius: 4px; /* Smooth edges */
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css')}}">
+    <title>Subpage 1</title>
+</head>
+<body>
+    <h2>Principles and Practice of Insurance</h2>
+    <form onsubmit="submitForm(event)">
+        <div class="model-select-container">
+            <label for="modelSelect">Choose a method:</label>
+            <select id="modelSelect">
+                <option value="model1">GPT</option>
+                <option value="model2">GPT + RAG</option>
+                <option value="model3">Ours (InsurBooster)</option>
+            </select>
+        </div>
+        <button type="submit" class="submit-button">Start Quiz</button>
+        <br><br>
+        <div id="questions-container"></div>
+    </form>
+    <script src="{{ url_for('static', filename='data/actuary_qn.js')}}"></script> <!-- Load questions data -->
+    <script src="{{ url_for('static', filename='js/ac_scripts.js')}}"></script> <!-- Load fucntions -->
+</body>
+</html>
