@@ -1,2 +1,52 @@
 Flask==3.0.3
-openai==1.20.0
+
+# Natural Language Processing
+langchain==0.3.8
+langchain_openai==0.2.9
+langchain_chroma==0.1.4
+chromadb==0.5.20
+InstructorEmbedding==1.0.1
+sentence-transformers==2.2.2
+protobuf==4.24.3
+langdetect==1.0.9
+
+# document parsers
+docx2txt==0.8
+pypdfium2==4.20.0
+PyPDF2==2.12.1
+PyMuPDF==1.24.7
+# PyMuPDF==1.23.4; sys_platform != 'darwin'
+# # Need to execute "brew install mupdf swig freetype" on Mac OS first
+# https://github.com/pymupdf/PyMuPDF/archive/master.tar.gz ; sys_platform == 'darwin'
+
+# Utilities
+urllib3==2.0.6
+accelerate==0.23.0
+bitsandbytes==0.41.1
+click==8.1.7
+requests==2.31.0
+pydantic==2.7.4
+fastapi==0.103.1
+python-docx==1.1.2
+uvicorn==0.23.2
+httpx==0.27.2
+pillow==10.4.0
+pillow-heif==0.18.0
+python-multipart==0.0.6
+PyYAML==6.0.2
+python-dotenv==1.0.1
+matplotlib==3.9.2
+tenacity==9.0.0
+
+# Excel File Manipulation
+openpyxl==3.1.2
+
+# Table Extraction
+unstructured[pdf]==0.15.1
+unstructured[local-inference]==0.15.1
+unstructured-client==0.25.0
+langchain-community==0.3.8
+langchain-core==0.3.21
+pandas==2.2.2
+camelot-py==0.11.0
+ghostscript==0.7
