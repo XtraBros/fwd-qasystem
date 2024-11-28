@@ -1,0 +1,152 @@
+[
+    {
+        "question_id": "1",
+        "question": "benefit (GMDB) rider and uses the non-option approach to value the market risk benefit (MRB) on the GMDB rider. You are given: • Valuation date is the end of year 2 • Two scenarios are adequate for the calculation of the MRB • The annuity is assumed to surrender after the 10th year • Fees are collected at the beginning of each year • Projected account values and minimum death benefit values are at the end of the year, and all death benefits are paid at the end of the year • Within the year, mortality is assumed to occur before other decrements are considered • Persistency shown includes the effect of all decrements • Data is given in the tables in the Excel spreadsheet \n(a) (1 points): VA product classification under US GAAP. ANSWER: \n(b) (5 points): valuation date. Show all work. The response for this part is to be provided in the Excel spreadsheet. \n(c) (2 points): the valuation date. Show all work. The response for this part is to be provided in the Excel spreadsheet. Exam ILALFMU: Spring 2024 ILA LFM_U 0524.docx Life Financial Management – US  --- Page 4 --- ",
+        "score": 8,
+        "correctAnswer": "",
+        "data": []
+    },
+    {
+        "question_id": "2",
+        "question": "into the market for long term care (LTC) products. \n(a) (4 points): Claim projections Projection Year 1 2,500 2,250 - - - 2 6,063 5,456 - - Total 2,500 8,313 5,456 - - Corporate Bond Yield Curve Prime Spot 5.00% 5.50% 5.25% 4.50% 4.00% High Grade Spot 5.25% 5.25% 5.00% 4.75% 4.50% Upper Medium Spot 5.50% 6.00% 5.50% 5.00% 4.75% Prime Forward 5.00% 6.00% 4.75% 2.25% 2.00% High Grade Forward 5.25% 5.25% 4.50% 4.00% 3.50% Upper Medium Forward 5.50% 6.50% 4.50% 3.50% 3.75% (i) Calculate the claim reserve under US GAAP for year 1 and 2 using the spot rate locked in at issue. Show all work. The response for this part is to be provided in the Excel spreadsheet. (ii) Calculate the claim reserve under US GAAP for year 1 and 2 using the forward rate locked in at issue. Show all work. The response for this part is to be provided in the Excel spreadsheet. Exam ILALFMU: Spring 2024 ILA LFM_U 0524.docx Life Financial Management – US  --- Page 5 --- ",
+        "score": 11,
+        "correctAnswer": "",
+        "data": [
+            "Incurral Year 1 2 3 4 5",
+            "Moody's rating Curve 1 2 3 4 5"
+        ]
+    },
+    {
+        "question_id": "2",
+        "question": "Continued \n(b) (3 points): volatility from the risk of entering the LTC market. Assess whether each proposal below meets the objective of QWE. (i) Proposal 1: Cede 80% of morbidity risk with a large ceding commission to boost surplus at inception. QWE will pay a morbidity premium set at 500% of best estimate morbidity, and will receive an experience rating refund on ceded premium paid over 0.05% of statutory reserves at the end of each year. ANSWER: (ii) Proposal 2: QWE will pay a quarterly premium at 107% of the industry morbidity rate, with the first-year reinsurance premium being waived for all policies. The reinsurer will reimburse all LTC claims after the second year a policy has been on claim. ANSWER: Exam ILALFMU: Spring 2024 ILA LFM_U 0524.docx Life Financial Management – US  --- Page 6 --- ",
+        "score": 0,
+        "correctAnswer": "",
+        "data": []
+    },
+    {
+        "question_id": "2",
+        "question": "Continued \n(c) (4 points): officer has decided to increase the commission on the LTC products. The agents selling the policies have proposed the following commission schedules: • Schedule A: 10% commission on first year premium only • Schedule B: 1% commission on all premium collected • Schedule C: fixed cost per year regardless of sales. Cost is approximately 8% of projected first year premium The expected life of the policy is 30 years. Identify the commission schedule that: (i) Results in the least statutory surplus strain at issue. ANSWER: (ii) Results in the highest GAAP net income. ANSWER: (iii) Results in the least mismatch between statutory income and GAAP income. Justify your answer. ANSWER: Exam ILALFMU: Spring 2024 ILA LFM_U 0524.docx Life Financial Management – US  --- Page 7 --- ",
+        "score": 0,
+        "correctAnswer": "",
+        "data": []
+    },
+    {
+        "question_id": "3",
+        "question": "Guideline LIII (AG53): \n(a) (3 points): ANSWER: \n(b) (2 points): (i) AG53 will help ensure spread attributions will be consistent across companies. ANSWER: (ii) For the purpose of determining net market spreads, best estimate cashflows with margin should be used. However, investment expenses and defaults should not be considered when determining the net market spreads. ANSWER: (iii) Guideline excess spread attribution is only required for existing asset holdings. ANSWER: (iv) Guideline excess spread attribution should be performed for fixed rate corporate bonds with no or immaterial callability. ANSWER: Exam ILALFMU: Spring 2024 ILA LFM_U 0524.docx Life Financial Management – US  --- Page 8 --- ",
+        "score": 7,
+        "correctAnswer": "",
+        "data": []
+    },
+    {
+        "question_id": "3",
+        "question": "Continued \n(c) (2 points): Table A: Spread Components Related to Each Risk Spread Components Related to Each Risk Asset Type Net Factor A Factor B Factor C Factor D Other Market Factors/ Spread Unallocated Investment 1.5% 1.0% 0.5% 0.0% 0.0% 0.0% Grade Net Spread Benchmark Asset Class 1 2.5% 0.3% 0.7% 0.5% 0.8% 0.2% Asset Class 2 3.5% 1.8% 0.3% 1.0% 0.0% 0.4% Table B: Excess Spread Components Related to Each Risk Excess Spread Components Related to Each Risk Asset Type Net Investment Guideline Factor Factor Factor Factor Other Market Grade Net Excess A B C D Factors/ Spread Spread Spread Unallocated Benchmark Asset Class 1 Asset Class 2 The response for this part is to be provided in the Excel spreadsheet. Exam ILALFMU: Spring 2024 ILA LFM_U 0524.docx Life Financial Management – US  --- Page 9 --- 4 policies. \n(a) (2 points): A. The starting assets in the cash flow projection model should be 105% of the modeled reserve. ANSWER: B. The Deterministic Exclusion Test is not required as it is designed to identify policies that are insensitive to interest rate and asset return volatility risks. ANSWER: C. The Stochastic Reserve is calculated as the sum of the starting assets and the greatest present value of accumulated deficiency. ANSWER: \n(b) (2 points): Show all work. Statement Value of One-Year Treasury Rate (%) 1.34 0.65 0.14 1.03 1.08 0.74 0.59 1.05 0.57 0.48 The response for this part is to be provided in the Excel spreadsheet. \n(c) (2 points): assumption given that ABC’s mortality experience is only partially credible. ANSWER: Exam ILALFMU: Spring 2024 ILA LFM_U 0524.docx Life Financial Management – US  --- Page 10 --- ",
+        "score": 8,
+        "correctAnswer": "",
+        "data": [
+            "Projection period 0 1 2 3 4 5 6 7 8 9 10",
+            "Assets (000s) 20 11 2 (7) (3) 1 5 9 13 17 21"
+        ]
+    },
+    {
+        "question_id": "4",
+        "question": "Continued \n(d) (2 points): improvement assumptions under a significant pandemic, such as COVID-19. ANSWER: Exam ILALFMU: Spring 2024 ILA LFM_U 0524.docx Life Financial Management – US  --- Page 11 --- ",
+        "score": 0,
+        "correctAnswer": "",
+        "data": []
+    },
+    {
+        "question_id": "5",
+        "question": "entities in other jurisdictions. PGY reinsures business written in North America, Europe, Australia, and Japan. Depending on the location, PGY’s entities follow US Statutory Accounting, US GAAP (LDTI), or IFRS 17. \n(a) (4 points): revising some of its best estimate assumptions for a block of term business. You are given: Assumption Before After Mortality 100% of past experience 10% increase Maintenance expense 2,000 per policy 2,000 per policy with 3% inflation Claim expense 1,000 per claim 1,000 per claim, decreasing by 5% each year, floored at 500 PGY’s experience is considered fully credible Assess the current year directional impact of the assumption update (while holding all other assumptions constant) for each of the above assumptions with regard to each of the following: (i) Deterministic US Statutory Reserve under VM-20 ANSWER: (ii) US GAAP Reserve Justify your answers. ANSWER: Exam ILALFMU: Spring 2024 ILA LFM_U 0524.docx Life Financial Management – US  --- Page 12 --- ",
+        "score": 11,
+        "correctAnswer": "",
+        "data": []
+    },
+    {
+        "question_id": "5",
+        "question": "Continued \n(b) (2 points): A. The VM-20 Minimum Reserves for a group of individual life insurance policies that pass both the deterministic and stochastic exclusion tests is NPR+Max[0, DR-NPR]. ANSWER: B. The process for calculating the NPR assumes that at issue, all policies are level premium permanent plans that will expire on the maturity date with a minimum guaranteed benefit. ANSWER: C. When calculating the NPR floor, the COI would be determined to the next paid-to-date using credibility weighted company experience. ANSWER: \n(c) (5 points): each block of business to be reported through, with the goal of optimizing profit and capital. You are given the following information on a block of whole life business at issue: Plan PV premium PV claims IFRS 17 Risk PV expenses (millions) (millions) Adjustment (millions) (millions) (i) Calculate the GAAP liability for each plan. Show all work. The response for this part is to be provided in the Excel document. (ii) Calculate the IFRS 17 fulfillment cashflow for each plan. Show all work. The response for this part is to be provided in the Excel document. Exam ILALFMU: Spring 2024 ILA LFM_U 0524.docx Life Financial Management – US  --- Page 13 --- ",
+        "score": 0,
+        "correctAnswer": "",
+        "data": [
+            "A 10 5 0.5 0",
+            "B 12 13 1 0"
+        ]
+    },
+    {
+        "question_id": "5",
+        "question": "Continued (iii) Calculate the IFRS 17 contractual service margin for each plan. Show all work. The response for this part is to be provided in the Excel document. (iv) Recommend which entity below should be used for this block: • Entity 1: follows IFRS 17 reporting • Entity 2: follows U.S GAAP reporting Justify your response. ANSWER: Exam ILALFMU: Spring 2024 ILA LFM_U 0524.docx Life Financial Management – US  --- Page 14 --- ",
+        "score": 0,
+        "correctAnswer": "",
+        "data": []
+    },
+    {
+        "question_id": "6",
+        "question": "\n(a) (3 points): policy as of 12/31/2023. Issue date April 10, 2016 Mean reserve (includes deficiency reserves) 5,000 Valuation premium 1,000 Deficiency reserve 1,000 Supplemental benefit reserve 100 Cash surrender value 3,500 Policy Mean Reserve Semi Continuous Reserve Method assuming an Annual Valuation Mode Policy premium mode monthly Calculate the tax reserve for the policy as of 12/31/2023. Show all work. The response for this part is to be provided in the Excel document. \n(b) (3 points): Face amount 234,000 Minimum guarantee rate 2.0% Issue age 46 Premium expense load 3.0% 2% 4% 6% Present value of death benefits 86,073.58 48,556.15 29,244.58 Present value of expenses 131.98 95.02 72.35 27.40 20.00 15.47 6.57 6.22 5.89 𝑎𝑎̈46 𝑎𝑎̈46:7 Exam ILALFMU: Spring 2024 ILA LFM_U 0524.docx Life Financial Management – US  --- Page 15 --- ",
+        "score": 9,
+        "correctAnswer": "",
+        "data": []
+    },
+    {
+        "question_id": "6",
+        "question": "Continued Calculate the following: (i) Initial Cash Value Accumulation Test Net Single Premium The response for this part is to be provided in the Excel document. (ii) Guideline Level Premium The response for this part is to be provided in the Excel document. (iii) Guideline Single Premium The response for this part is to be provided in the Excel document. (iv) 7-Pay Premium The response for this part is to be provided in the Excel document. Show all work. \n(c) (3 points): actual premium payments: Policy Year Premium Paid 1 10,000 2 5,000 3 25,000 4 3,000 5 2,500 6 2,000 7 0 (i) Determine whether the policy qualifies as life insurance using the guideline premium test. Show all work. The response for this part is to be provided in the Excel document. (ii) Determine whether the policy is a modified endowment contract. Show all work. The response for this part is to be provided in the Excel document. Exam ILALFMU: Spring 2024 ILA LFM_U 0524.docx Life Financial Management – US  --- Page 16 --- ",
+        "score": 0,
+        "correctAnswer": "",
+        "data": []
+    },
+    {
+        "question_id": "6",
+        "question": "Continued (iii) Describe how policyholder taxes change when the policy is a modified endowment contract. ANSWER: Exam ILALFMU: Spring 2024 ILA LFM_U 0524.docx Life Financial Management – US  --- Page 17 --- ",
+        "score": 0,
+        "correctAnswer": "",
+        "data": []
+    },
+    {
+        "question_id": "7",
+        "question": "\n(a) (2 points): • SPW Life has identified its key risk to be disintermediation risk in the rising interest rate environment, where SPW Life will incur a large loss when selling assets to fund its high amount of lapses. • SPW Life’s experience in mortality underwriting has been more favorable than the industry, and it does not view mortality as a key risk. You have been provided the following information about SPW Life’s RBC components: RBC Capital Amount Component (before diversification) C0 0 C1 4,000,000 C2 100,000,000 C3 5,000,000 C4 0 Explain why the biggest risk identified from the RBC above may be different from the ORSA excerpt. ANSWER: \n(b) (2 points): ORSA report is consistent with the ORSA guidance. A. SPW Life has performed all its quantitative risk assessments, using stochastic analysis and actuarial judgement. All assessments were done on a quantitative basis. ANSWER: B. The stress tests used in ORSA calculations were based on historic worst cases experienced by SPW Life in the last 5 years. ANSWER: Exam ILALFMU: Spring 2024 ILA LFM_U 0524.docx Life Financial Management – US  --- Page 18 --- ",
+        "score": 7,
+        "correctAnswer": "",
+        "data": []
+    },
+    {
+        "question_id": "7",
+        "question": "Continued C. SPW Life defines solvency as having enough liquid assets, limited to cash and US Treasury bonds, to ensure all obligations will be able to be met within the next 3 years. ANSWER: \n(c) (3 points): using the NAIC RBC rules at the inception of the product. Justify your reasoning. (i) Fixed deferred annuity with a 3-year surrender charge period and no Market Value Adjustment (MVA). The first-year surrender charge is 6%. ANSWER: (ii) Single premium deferred payout annuity. The single premium cannot be withdrawn for 5 years. Starting in year 6, payments are guaranteed for life. ANSWER: (iii) Fixed indexed annuity with a 2% surrender charge for only the first 5 years. ANSWER: Exam ILALFMU: Spring 2024 ILA LFM_U 0524.docx Life Financial Management – US  --- Page 19 --- ",
+        "score": 0,
+        "correctAnswer": "",
+        "data": []
+    },
+    {
+        "question_id": "8",
+        "question": "\n(a) (2 points): Analysis technique to generate a range of appraisal values for ELF. You are given: • price-to-book value multiples ranging from 1.1 to 1.8 • a change of control premium of 15% • ELF’s current book value is 1000 (i) Describe the general guidelines that are useful for peer group selection in the Comparable Company Analysis. ANSWER: (ii) Calculate the range of appraisal value of ELF Insurance. Show all work. The response for this part is to be provided in the Excel document. \n(b) (5 points): 12/2023 12/2024 12/2025 12/2026 12/2027 12/2028 Investment Income (all Exam ILALFMU: Spring 2024 ILA LFM_U 0524.docx Life Financial Management – US  --- Page 20 --- ",
+        "score": 9,
+        "correctAnswer": "",
+        "data": [
+            "Premium 500 450 400 350 300",
+            "assets) 138 131 125 118 112",
+            "Benefits 200 210 220 230 240",
+            "Commissions 10 9 8 7 6",
+            "Expenses 100 90 80 70 60",
+            "Statutory Reserves 2000 1900 1800 1700 1600 0",
+            "Total Required Capital 300 290 280 270 260 0"
+        ]
+    },
+    {
+        "question_id": "8",
+        "question": "Continued Assuming: Pre-tax earned rate 6% Tax rate 21% Free surplus 0 Risk discount rate 10% Taxable incomes equal to pre-tax earnings. Calculate the following information for all projection years: (i) Book profit (ii) Cost of Capital (iii) Inforce Business Value (iv) Embedded Value Show all work. The response for this (all 4 parts) is to be provided in the Excel document. \n(c) (2 points): A. A going concern valuation captures only the value of all the tangible assets that are reflected on the seller’s balance sheet. ANSWER: B. For public companies, the actuarial appraisals developed by the seller are usually done on a US GAAP accounting basis. ANSWER: Exam ILALFMU: Spring 2024 ILA LFM_U 0524.docx Life Financial Management – US  --- Page 21 --- ",
+        "score": 0,
+        "correctAnswer": "",
+        "data": []
+    },
+    {
+        "question_id": "8",
+        "question": "Continued C. The assumptions underlying the seller’s actuarial appraisal analysis are intended to be moderately adverse to be conservative. ANSWER: D. If embedded value assumptions are the same as actuarial appraisal assumptions and the same discount rates are used for both, then the actuarial appraisal value is the sum of embedded value and the value of future business. ANSWER: Exam ILALFMU: Spring 2024 ILA LFM_U 0524.docx Life Financial Management – US  --- Page 22 --- 9 \n(a) (3 points): insurance policies: Annual premium 5 Interest rates 0% Decrements 0 Policies sold 10 Total maintenance expenses per year 25 Total claims per year 10 Total risk adjustment per year 5 Calculate the IFRS 17 liability components on initial recognition. Show all work. The response for this part is to be provided in the Excel document. \n(b) (4 points): areas: (i) level of aggregation ANSWER: (ii) financial statements presentation ANSWER: (iii) earnings emergence for profitable and unprofitable business ANSWER: \n(c) (3 points): A. A contract is considered as an insurance contract only if it exposes the insurers to both insurance and financial risks. ANSWER: Exam ILALFMU: Spring 2024 ILA LFM_U 0524.docx Life Financial Management – US  --- Page 23 --- ",
+        "score": 10,
+        "correctAnswer": "",
+        "data": []
+    },
+    {
+        "question_id": "9",
+        "question": "Continued B. An insurance risk is not considered significant if the insured event is extremely unlikely to occur and if there is minimal probability of significant losses for a group of contracts. ANSWER: C. Insurance risks are risks that are related to an insurance contract, such as death, illness, or lapsation. ANSWER: D. Contractual service margin (CSM) from a profitable direct contract can be used to offset the losses from another contract that is determined to be onerous at initial recognition and in subsequent measurements. ANSWER: **END OF EXAMINATION** Exam ILALFMU: Spring 2024 ILA LFM_U 0524.docx Life Financial Management – US  ",
+        "score": 0,
+        "correctAnswer": "",
+        "data": []
+    }
+]
