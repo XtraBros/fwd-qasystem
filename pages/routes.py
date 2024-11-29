@@ -62,3 +62,11 @@ def actuary():
         answers = request.form.to_dict()
         return jsonify(answers)
     return render_template('actuary.html')
+
+# experimental page
+@pages.route('/test', methods=['GET', 'POST'])
+def test_page():
+    if request.method == 'POST':
+        answers = request.form.to_dict()
+        return jsonify(answers)
+    return render_template('test.html')
